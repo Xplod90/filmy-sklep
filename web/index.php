@@ -47,21 +47,131 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 	$zamowienie->get($db, $row['id']);
 	$zamowienia[] = $zamowienie;
 }
-
-
-
-
-
-//var_dump($zamowienia);
-/*
-$zamowienie = new Zamowienie();
-$zamowienie->_czas_zamowienia = "test";
-$zamowienie->_dostawa->_adres = "Krakow, test";
-$zamowienie->_filmy[] = $filmy[1];
-$zamowienie->_filmy[] = $filmy[5];
-$zamowienie->_filmy[] = $filmy[56];
-$zamowienia[] = $zamowienie;
-$zamowienie->save($db);
-*/
-var_dump($zamowienia);
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Bootstrap 3, from LayoutIt!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column" style="top:30px">
+			<ul class="nav nav-tabs">
+				<li class="active">
+					<a href="#">Filmy</a>
+				</li>
+				<li>
+					<a href="#">Zamowienia</a>
+				</li>
+				<div class="view pull-right">
+				    <ul class="nav nav-pills">
+				      <li class="active">
+				        <a href="#">
+				          <span class="badge pull-right"> X </span>
+				          W koszyku
+				        </a>
+				      </li>
+				      <li>
+				        <a href="#">
+				          <span class="badge pull-right">16$</span>
+				          Suma<br/>Zapłać</a>
+				      </li>
+				    </ul>
+					</div>
+			</ul>
+			<div class="page-header">
+				<h1>
+					Filmy
+				</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-md-12 column" id="content" style="top:30px">
+		<?php
+		foreach ($filmy as $i=>$film) {
+		?>
+		<div class="row clearfix">
+		<div class="col-md-1 column number">
+				<?=$i+1?>
+		</div>
+			<div class="col-md-1 column">
+				<img src="<?=$film->_img_url?>">
+			</div>
+			<div class="col-md-8 column" style="padding-left:40px">
+			<h3><?=$film->_nazwa?></h3>
+				<blockquote contenteditable="true">
+				  <p class="opis"><?=$film->_opis?></p>
+			    </blockquote>
+			</div>
+			<div class="col-md-2 column">
+				<div class="btn-group btn-group-vertical">
+					 <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-left"></em> Left</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-center"></em> Center</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-right"></em> Right</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-justify"></em> Justify</button>
+				</div>
+			</div>
+		</div>
+		<hr/>
+	<?php
+		}
+		?>
+	</div>
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<ul class="pagination">
+				<li>
+					<a href="#">Prev</a>
+				</li>
+				<li>
+					<a href="#">1</a>
+				</li>
+				<li>
+					<a href="#">2</a>
+				</li>
+				<li>
+					<a href="#">3</a>
+				</li>
+				<li>
+					<a href="#">4</a>
+				</li>
+				<li>
+					<a href="#">5</a>
+				</li>
+				<li>
+					<a href="#">Next</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

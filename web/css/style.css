@@ -1,0 +1,20 @@
+.number {
+font-weight: bold;
+color: #ffae00;
+font-size: 42px;
+float: left;
+width: 80px;
+text-align: center;
+position: relative;
+top: 20px;
+font-family: HelveticaNeueLTCom107ExtraBla,Impact,Arial Narrow Bold,sans-seif;
+}
+.opis{
+
+
+font-size: 0.9em;
+line-height: 1em;
+
+
+text-align: justify;
+}
