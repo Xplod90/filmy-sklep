@@ -25,8 +25,12 @@ class film {
   }
 
   function delete($db) {
-    $query = $db->prepare("DELETE FROM `film` WHERE `id`=? LIMIT 1;");
-    $query->execute(array($this->_id));
+    if(is_null($this->_id)) {
+        return;
+      } else {
+        $query = $db->prepare("DELETE FROM `film` WHERE `id`=? LIMIT 1;");
+        $query->execute(array($this->_id));
+      }
   }
 
   function get($db,$id) {

@@ -9,7 +9,7 @@
 Ładowanie potrzebnych klas
 */
 require 'src/klasy/film.php';
-require 'src/klasy/zamowienia.php';
+require 'src/klasy/zamowienie.php';
 //require 'src/klasy/dostawa.php';
 
 /*
@@ -36,16 +36,16 @@ foreach($db->query('SELECT `id` from `film`') as $row) {
 
 
 /*
-Pobieranie wszystkich dostaw
+Pobieranie wszystkich zamowien
 Analogicznie do tego jak pobierane są film, dlatego bez komentarzy
 
-
-foreach($db->query('SELECT `id` from `dostawa`') as $row) {
-	$dostawa = new Dostawa();
-	$dostawa->get($db, $row['id']);
-	$dostawy[] = $dostawa;
-}
 */
+foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
+	$zamowienie = new Dostawa();
+	$zamowienie->get($db, $row['id']);
+	$zamowienia[] = $zamowienie;
+}
 
-var_dump($filmy[0]);
+
+var_dump($zamowienia[0]);
 ?>

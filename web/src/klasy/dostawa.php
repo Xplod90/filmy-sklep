@@ -10,7 +10,7 @@ class dostawa {
     if(is_null($this->_)) {
       $query = $db->prepare("INSERT INTO `dostawa` VALUES (?,?);");
       $query->execute(array($this->_id,$this->_adres));
-      $this->_ = $db->lastInsertId();
+      $this->_id = $db->lastInsertId();
     }
     else {
       $query = $db->prepare("UPDATE `dostawa` SET `id`=?,`adres`=? WHERE ``=? LIMIT 1;");
