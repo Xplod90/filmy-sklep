@@ -20,7 +20,6 @@ Pobieranie wartośc z bazy danych i tworzenie nowych obiektow
 Stworzenie odpowiednich tablic
 */
 $filmy = array();
-//$dostawy = array();
 $zamowienia = array();
 
 /*
