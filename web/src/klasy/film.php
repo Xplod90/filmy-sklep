@@ -10,60 +10,9 @@ class film {
   public $_img_url = null;
   public $_opis = null;
 
-  function getid() {
-    return $this->_id;
-  }
-  function getnazwa() {
-    return $this->_nazwa;
-  }
-  function getimg_url() {
-    return $this->_img_url;
-  }
-  function getopis() {
-    return $this->_opis;
-  }
-  function setnazwa($newvalue) {
-    if(is_null($newvalue)) {
-      throw new Exception("Value cannot be null - nazwa");
-    }
-    if(gettype($newvalue) != "string") {
-      throw new Exception("Value not string - ".$newvalue);
-    }
-    if(strlen($newvalue) > 200) {
-      throw new Exception("Value size larger then then - 200 - ".$newvalue);
-    }
-    $this->_nazwa = $newvalue;
-  }
-  function setcena($newvalue) {
-    if(is_null($newvalue)) {
-      throw new Exception("Value cannot be null - cena");
-    }
-    // !!!WARNING!!! Unknown type "cena" may not save correctly. You can ignore this if you know how to handle the database type yourself.
-    $this->_cena = $newvalue;
-  }
-  function setimg_url($newvalue) {
-    if(is_null($newvalue)) {
-      throw new Exception("Value cannot be null - img_url");
-    }
-    if(gettype($newvalue) != "string") {
-      throw new Exception("Value not string - ".$newvalue);
-    }
-    if(strlen($newvalue) > 500) {
-      throw new Exception("Value size larger then then - 500 - ".$newvalue);
-    }
-    $this->_img_url = $newvalue;
-  }
-  function setopis($newvalue) {
-    if(is_null($newvalue)) {
-      throw new Exception("Value cannot be null - opis");
-    }
-    if(gettype($newvalue) != "string") {
-      throw new Exception("Value not string - ".$newvalue);
-    }
-    $this->_opis = $newvalue;
-  }
-
+  // Zapisanie obiektu do bazy
   function save($db) {
+    // Jeżeli to jest nowo dodany film
     if(is_null($this->_id)) {
       $query = $db->prepare("INSERT INTO `film` VALUES (NULL,?,?,?,?);");
       $query->execute(array($this->_nazwa,$this->_cena,$this->_img_url,$this->_opis));
