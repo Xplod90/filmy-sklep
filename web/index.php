@@ -51,12 +51,15 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 
 
 //var_dump($zamowienia);
-
+/*
 $zamowienie = new Zamowienie();
 $zamowienie->_czas_zamowienia = "test";
 $zamowienie->_dostawa->_adres = "Krakow, test";
 $zamowienie->_filmy[] = $filmy[1];
+$zamowienie->_filmy[] = $filmy[5];
+$zamowienie->_filmy[] = $filmy[56];
 $zamowienia[] = $zamowienie;
 $zamowienie->save($db);
-//var_dump($zamowienia);
+*/
+var_dump($zamowienia);
 ?>
