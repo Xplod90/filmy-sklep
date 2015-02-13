@@ -8,23 +8,30 @@ class Zamowienie {
   public $_id = null;
   public $_czas_zamowienia = null;
   public $_dostawa;
-
+  // zamowienie zawiera filmy
+  public $_filmy = array();
    public function __construct()
    {
     // Ustawienie dostawy jako nowy obiekt
     $this->_dostawa = new Dostawa();
+
+
    }
   function save($db) {
     if(is_null($this->_id)) {
-
+       // Wstawienie dostawy 
       $this->_dostawa->save($db);
-      echo $this->_dostawa->_id;
       $query = $db->prepare("INSERT INTO `zamowienie` (`dostawa_id`) VALUES (?);");
       $query->execute(array($this->_dostawa->_id));
       $this->_id = $db->lastInsertId();
-      // Wstawienie dostawy 
 
-      echo "Dodałem do bazy";
+      //Dodawanie do tabeli lączącej
+      foreach ($this->_filmy as $film) {
+        $query = $db->prepare("INSERT INTO `zamowienie_film` (`zamowienie_id`, `film_id`) VALUES (?,?);");
+        $query->execute(array($this->_id,$film->_id));
+        var_dump($query);
+      }
+
     }
     else {
       $query = $db->prepare("UPDATE `zamowienie` SET `czas_zamowienia`=?,`dostawa_id`=? WHERE `id`=? LIMIT 1;");
@@ -50,7 +57,17 @@ class Zamowienie {
       $this->_id = $row_data["id"];
       $this->_czas_zamowienia = $row_data["czas_zamowienia"];
       $this->_dostawa->get($db,  $row_data["dostawa_id"]);
+
+      $query = $db->prepare("SELECT `film_id` FROM `zamowienie_film` WHERE `zamowienie_id`=?;");
+      $query->execute(array($this->_id));
+      foreach ($query->fetchAll() as $row_id => $row_data) {
+        $film = new Film();
+        $film->get($db, $row_data["film_id"]);
+        $this->filmy[] = $film;
+      }
+
     }
+    
   }
 }
 
