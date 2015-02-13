@@ -4,19 +4,27 @@
 //////////////////////////////////////////////////////////////
 // importowanie obiektu dostawa
 require 'dostawa.php';
-class zamowienie { 
+class Zamowienie { 
   public $_id = null;
   public $_czas_zamowienia = null;
-  public $_dostawa = null;
+  public $_dostawa;
 
+   public function __construct()
+   {
+    // Ustawienie dostawy jako nowy obiekt
+    $this->_dostawa = new Dostawa();
+   }
   function save($db) {
     if(is_null($this->_id)) {
-      $query = $db->prepare("INSERT INTO `zamowienie` VALUES (NULL,?,?);");
-      $query->execute(array($this->_czas_zamowienia,$this->_dostawa->_id));
+
+      $this->_dostawa->save($db);
+      echo $this->_dostawa->_id;
+      $query = $db->prepare("INSERT INTO `zamowienie` (`dostawa_id`) VALUES (?);");
+      $query->execute(array($this->_dostawa->_id));
       $this->_id = $db->lastInsertId();
       // Wstawienie dostawy 
 
-      $_dostawa->save($db);
+      echo "Dodałem do bazy";
     }
     else {
       $query = $db->prepare("UPDATE `zamowienie` SET `czas_zamowienia`=?,`dostawa_id`=? WHERE `id`=? LIMIT 1;");
@@ -36,19 +44,12 @@ class zamowienie {
   }
 
   function get($db,$id) {
-    if(gettype($id) != "integer") {
-      throw new Exception("Value not integer");
-    }
-    else {
-      $query = $db->prepare("SELECT `id`,`czas_zamowienia`,`dostawa_id` FROM `zamowienie` WHERE `id`=? LIMIT 1;");
-      $query->execute(array($id));
-      foreach ($query->fetchAll() as $row_id => $row_data) {
-        $this->_id = $row_data["id"];
-        $this->_czas_zamowienia = $row_data["czas_zamowienia"];
-        $dostawa = new Dostawa();
-        $dostawa->get($db,  $row_data["dostawa_id"]);
-        $this->_dostawa = $dostawa;
-      }
+    $query = $db->prepare("SELECT `id`,`czas_zamowienia`,`dostawa_id` FROM `zamowienie` WHERE `id`=? LIMIT 1;");
+    $query->execute(array($id));
+    foreach ($query->fetchAll() as $row_id => $row_data) {
+      $this->_id = $row_data["id"];
+      $this->_czas_zamowienia = $row_data["czas_zamowienia"];
+      $this->_dostawa->get($db,  $row_data["dostawa_id"]);
     }
   }
 }

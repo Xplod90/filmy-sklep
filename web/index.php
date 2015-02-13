@@ -1,4 +1,7 @@
 <?php
+ini_set('display_errors',1);
+ini_set('display_startup_errors',1);
+error_reporting(-1);
 /*
 Łaczenie z bazą danych 
 */
@@ -41,11 +44,18 @@ Analogicznie do tego jak pobierane są film, dlatego bez komentarzy
 
 */
 foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
-	$zamowienie = new Dostawa();
+	$zamowienie = new Zamowienie();
 	$zamowienie->get($db, $row['id']);
 	$zamowienia[] = $zamowienie;
 }
 
 
-var_dump($zamowienia[0]);
+var_dump($zamowienia);
+
+$zamowienie = new Zamowienie();
+$zamowienie->_czas_zamowienia = "test";
+$zamowienie->_dostawa->_adres = "Krakow, test";
+$zamowienia[] = $zamowienie;
+$zamowienie->save($db);
+//var_dump($zamowienia);
 ?>
