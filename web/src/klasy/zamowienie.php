@@ -4,7 +4,6 @@
  importowanie potrzebnyc klas
 */
 require 'dostawa.php';
-require 'film.php';
 
 /*
 Tworzenei klasy zamówienia
