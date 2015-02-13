@@ -39,7 +39,7 @@ foreach($db->query('SELECT `id` from `film`') as $row) {
 
 /*
 Pobieranie wszystkich zamowien
-Analogicznie do tego jak pobierane są film, dlatego bez komentarzy
+Analogicznie do tego jak pobierane są filmy, dlatego bez komentarzy
 
 */
 foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
