@@ -1,12 +1,12 @@
 <?php
 
 /*
- importowanie potrzebnyc klas
+ importowanie potrzebnych klas
 */
 require 'dostawa.php';
 
 /*
-Tworzenei klasy zamówienia
+Tworzenie klasy zamówienia
 */
 class Zamowienie { 
   // ID zamówienia

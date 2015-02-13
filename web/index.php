@@ -49,6 +49,9 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 }
 
 
+
+
+
 //var_dump($zamowienia);
 /*
 $zamowienie = new Zamowienie();
