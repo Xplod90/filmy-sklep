@@ -1,0 +1,411 @@
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'American Hustle', '19.99', 'http://static.kinoman.tv/s/c/Ff20/Zt/eB/m.jpg', '
+Film opowiada historię błyskotliwego oszusta Irvinga Rosenfelda (Christian Bale), który wraz z partnerką i kochanką, Brytyjką Sydney Prosser (Amy Adams) zostaje zmuszony do pracy dla niezrównoważonego agenta FBI Richiego DiMaso (Bradley Cooper). DiMaso wciąga parę w równie niebezpieczny, co pociągający świat wpływowych lobbystów i mafii. W rolę zapalczywego Carmine Polito, polityka z New Jersey tkwiącego w samym środku działań prowadzonych przez oszustów i agentów federalnych, wciela się Jeremy Renner, a jako nieprzewidywalną żonę Irvinga, Rosalyn, zobaczymy na ekranie Jennifer Lawrence. I to właśnie Rosalyn może być osobą, która sprawi, że cały świat władzy runie jak domek z kart.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Gdybym tylko tu był', '19.99', 'http://static.kinoman.tv/s/c/3RUG/RQ/Jr/m.jpg', '
+Obraz w reżyserii Zacha Braffa (&quot;Powrót do Garden State&quot;) opowiadający historię Aidana Blooma, który w wieku 35 lat ciągle szuka swojej tożsamości. Próbuje być dobrym ojcem i mężem. Dorywcza praca aktora niestety nie pozwala na opłacenie rachunków na prywatne szkoły dla dzieci i postanawia uczyć je w domu. Aidan stara się przywrócić dobre relacje ze swoim ojcem.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'American Pie 2', '19.99', 'http://static.kinoman.tv/s/c/QvD7/eP/lC/m.jpg', '
+Kolejna część zabawnych perypetii bohaterów &quot;American Pie&quot; z udziałem wszystkich znanych z pierwszej części aktorów. Tym razem stojąca na progu dojrzałości grupa młodych przyjaciół dzielnie stara się stawić czoła swojej dorosłej niezależności. Po pomyślnym zakończeniu pierwszego roku collegu i pierwszym praktycznie roku &quot;rozłąki&quot; młodzi mężczyźni (Kevin, Jim, Oz, Finch i Stifler) postanawiają wspólnie spędzić wakacje, mające umocnić ich licealną przyjaźń i dostarczyć jednocześnie niezapomnianych letnich wrażeń.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ghoul', '19.99', 'http://static.kinoman.tv/s/c/WIDZ/xd/L4/m.jpg', '
+Przed laty w pewnym małym miasteczku zniknęła w tajemniczych okolicznościach para młodych ludzi. Timmy Graco (Nolan Gould) oraz jego dwaj przyjaciele postanawiają wrócić do tamtych wydarzeń i rozwiązać niewyjaśnioną sprawę. Adaptacja książki Briana Keene&#039;a pod tym samym tytułem.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Hobbit: Pustkowie Smauga', '19.99', 'http://static.kinoman.tv/s/c/7e1Q/mU/Sk/m.jpg', '
+Druga część filmowej adaptacja książki J.R.R. Tolkiena, będąca wstępem do słynnego &quot;Władcy Pierścieni&quot;. To opowieść pełna niezwykłych wydarzeń i magicznych postaci, przedstawiająca odwieczną walkę dobra ze złem. Po niezwykłym sukcesie trylogii wyreżyserowanej przez Petera Jacksona, publiczność musiała czekać aż dziewięć długich lat, w czasie których bardzo wiele działo się wokół zapowiadanej ekranizacji &quot;Hobbita&quot;. Plotki i spekulacje wciąż podtrzymywały wielkie zainteresowanie nowym filmem, który ostatecznie zrealizowany zostanie w trzech częściach: &quot;Hobbit: Niezwykła podróż&quot;, &quot;Hobbit: Pustkowie Smauga&quot; oraz &quot;Hobbit: Tam i z powrotem&quot;. Nowa trylogia Petera Jacksona powstaje w technice 3D.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Gangster Exchange', '19.99', 'http://static.kinoman.tv/s/c/0jKI/qu/re/m.jpg', '
+Hiro, Japończyk z Yakuzy oraz Marco, bośniacki ex-komandos, próbują przeszmuglować do Nowego Jorku toaletę zrobioną z czystej heroiny, wartą miliony dolarów. Gdy wydaje się, że wszystko idzie zgodnie z planem, nagle w mieście wybuchają wojny gangów, a dwóch bohaterów zamiast doręczyć przesyłkę, musi uciekać. Niesamowita komedia sensacyjna, przepełniona krwawymi scenami walki, strzelaninami i masą dobrego humoru. Co okaże się skuteczniejsze - karate, czy kałasznikowy?
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Projekt X', '19.99', 'http://static.kinoman.tv/s/c/3Ztj/2g/Ak/m.jpg', '
+&quot;Project X&quot; to szalona komedia o przygodach grupki kolegów, którzy postanawiają zorganizować najbardziej wystrzałową imprezę urodzinową w historii. Film przedstawia widziane z perspektywy cyfrowych kamer przyjęcie zorganizowane przez nastolatków, które zupełnie wymyka się spod kontroli.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Iron Man 3', '19.99', 'http://static.kinoman.tv/s/c/5dc3/Kd/2z/m.jpg', '
+Niezastąpiony Robert Downey Jr. powraca  w roli miliardera i genialnego wynalazcy Tony’ego Starka w trzeciej części historii ze świata Marvela – &quot;Iron Man 3&quot;. Świat Tony’ego Starka legł w gruzach w skutek podstępnych działań jednego z  jego najpotężniejszych wrogów. W poszukiwaniu zemsty Stark wyrusza w podróż, która wystawi na próbę siłę jego charakteru i ducha walki. Przyparty do muru, znów może polegać wyłącznie na swojej pomysłowości i instynkcie. Wkrótce odkrywa odpowiedź na od dawna nurtujące go pytanie: czy to zbroja czyni superbohatera?
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Co jest grane, Davis?', '19.99', 'http://static.kinoman.tv/s/c/y8pq/WH/DM/m.jpg', '
+Tytułowy Davis to przenoszący się z jednej kanapy na drugą, z podrzędnego nowojorskiego baru do kolejnego, intrygujący muzyk. Davis szuka nie tylko swojego miejsca w świecie, ale także wciąż uciekającego mu kota. Po drodze marzy o zrobieniu wielkiej kariery muzycznej. Gra co prawda z Justinem Timberlakiem, ale nie da się ukryć, że muzycy mijają się w doborze repertuaru. Davis na pewno nie jest mistrzem w podejmowaniu właściwych decyzji. Nieustająco zostawia i zabiera rzeczy od dziewczyny przyjaciela, z którą sam miał romans (Carey Mulligan). Ich dialogi skrzące od ciętych ripost zapewne przejdą do zbioru najlepszych tekstów Coenów.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Piraci z Karaibów: Na krańcu świata', '19.99', 'http://static.kinoman.tv/s/c/VY4d/sI/jU/m.jpg', '
+Dobre czasy, w których piraci królowali na wszystkich morzach świata, powoli dobiegają końca. Will Turner udaje się razem z dotychczasowym wrogiem Barbossą w podróż na Daleki Wschód, gdzie mają nadzieję na odnalezienie tajemniczych map, które pomogą im odkryć skrytkę Davy&#039;ego Jones&#039;a, a następnie ocalić kapitana Jacka Sparrow&#039;a. Will chce także uratować swojego ojca, dlatego musi odzyskać Czarną Perłę, która jako jedyna jest w stanie doścignąć Latającego Holendra. Tymczasem Jones wraz z lordem Cutlerem Beckettem, demonicznym azjatyckim piratem Sao Fengiem i Jamesem Norringtonem zawierają układ zagrażający wolności i życiu Jacka, Elizabeth, Willa, Barbarossy i wszystkich piratów na całym świecie. Jeśli główni bohaterowie chcą ujść z tej przygody cało, muszą udać się na terytorium dotychczas nie zaznaczone na żadnej mapie - na wyspę Shipwreck na Krańcu Świata...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Gåten Ragnarok', '19.99', 'http://static.kinoman.tv/s/c/wcLm/7Y/cr/m.jpg', '
+Sigurd Svendsen (Pål Sverre Valheim Hagen) jest archeologiem badającym &quot;łódź z Osebergu&quot;, statek Wikingów, który dawno temu posłużył jako kurhan. Znajduje się na nim zagadkowy, runiczny zapis o treści &quot;człowiek wie niewiele&quot;. Badacz znajduje jednak coś jeszcze. Są to muszle morskich stworzeń, świadczące o tym, że statek odbył podróż o wiele dalszą, niż sądzono. Gdy jego przyjaciel Alan (Nicolai Cleve Broch) znajduje w Norwegii identyczne runy, jak na łodzi, Sigurd, wraz z dwójką swoich dzieci oraz asystentką Elisabeth (Sofia Helin), wyrusza na daleką północ, aby rozwikłać zagadkę znaleziska.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Hans Kloss. Stawka większa niż śmierć', '19.99', 'http://static.kinoman.tv/s/c/An1A/Ah/Yb/m.jpg', '
+Koenigsberg, 1945 rok. Hans Kloss (Tomasz Kot) - agent polskiego wywiadu o kryptonimie J-23 - wpada na trop skarbu zrabowanego przez nazistów. W intrygę zaangażowany jest stary znajomy Klossa - Hermann Brunner (Piotr Adamczyk). Kloss, próbując pokrzyżować plany wroga, stara się ocalić z wojennej pożogi piękną Elzę (Marta Żmuda Trzebiatowska), dla której gotów będzie zaryzykować bezpieczeństwo swojej misji. Twórcy &quot;Klossa&quot; nie ukrywają inspiracji klasyką gatunku - filmami &quot;Tylko dla orłów&quot; i &quot;Komandosi z Navarony&quot;. &quot;Hans Kloss. Stawka większa niż śmierć&quot; to trzymający w napięciu, szpiegowski film wojenny utrzymany w klimacie legendarnego serialu, ale opowiedziany językiem współczesnego kina - ze spektakularnymi efektami specjalnymi i dynamiczną, pełną suspensu akcją. W obsadzie znaleźli się znakomici aktorzy w nowych, zaskakujących wcieleniach, a także niezapomniani serialowi antagoniści Brunner i Kloss - Emil Karewicz oraz Stanisław Mikulski, których spotkanie po latach będzie wstępem do pasjonującej podróży w przeszłość i odkrycia jednej z największych tajemnic III Rzeszy.  
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Missing William', '19.99', 'http://static.kinoman.tv/s/c/RTXG/Ms/2s/m.jpg', '
+Film opowiada o żyjącej na Rhode Island artystce, która zmuszona jest opiekować się swoim mężem, po tym jak został ranny w bójce barowej. Gdy próbuje przywrócić go do zdrowia, nieoczekiwanie pojawia się jej dawna nieodwzajemniona miłość. Od tej pory kobieta będzie musiała zdecydować czy kontynuować walkę o zdrowie męża czy odzyskać życie, które utraciła.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Silent Hill: Apokalipsa 3D', '19.99', 'http://static.kinoman.tv/s/c/vapL/Z4/1c/m.jpg', '
+Heather Mason przez całe życie ucieka przed niebezpiecznymi siłami, których nie może wytłumaczyć. W dniu swoich osiemnastych urodzin nawiedzona kolejnymi koszmarami i zniknięciem ojca, odkrywa że nie jest osobą, za którą się dotychczas uważała. To odkrycie wprowadza ją w głąb świata pełnego demonów. Jeżeli ich nie przezwycięży, utknie w Silent Hill na zawsze.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Transformers 3', '19.99', 'http://static.kinoman.tv/s/c/jExF/6V/MD/m.jpg', '
+Shia LaBeouf powraca jako Sam Witwicky w filmie &quot;Transformers 3&quot;! Przeszłość kryję tajemnice, a wydarzenia sprzed lat mają wpływy na to, co się dzieje teraz. Być może wrak statku kosmicznego znaleziony na Księżycu przyczyni się do tego, że Ziemia stanie na krawędzi wojny. Wojny tak wielkiej, że siła Transformersów będzie zbyt mała, by nas ocalić. Autoboty kontra Decepticony, dobro przeciw złu. I wcale nie jest powiedziane, że dobro zwycięży. Do ekipy znanej z poprzednich części Transformesów dołączyły nowe gwiazdy: John Malkovich, Patrick Dempsey oraz Frances McDormand. Film zobaczymy w oszałamiającej technologii 3D.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Jakieś pytania do Bena?', '19.99', 'http://static.kinoman.tv/s/c/lQLM/ft/1f/m.jpg', '
+Ben osiągnął w życiu wszystko - jest szczęśliwy, ma bardzo dobrze płatną pracę, piękną dziewczynę i wspaniałych przyjaciół. Pewnego dnia wraz z kilkoma dwanymi znajomymi zostaje zaproszony do swojego liceum, gdzie szereg uczniów zadaje mu pytanie o jego życiowe osiągnięcia. To spotkanie wkrótce odmieni jego życie...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Niezgodna', '19.99', 'http://static.kinoman.tv/s/c/7UVy/Eq/QQ/m.jpg', '
+W metropolii wzniesionej na ruinach Chicago idealne społeczeństwo budowane jest na zasadzie selekcji. Każdy nastolatek musi przejść test predyspozycji określający jego przynależność do jednej z pięciu grup. Jeśli nie posiadasz żadnej z pięciu kluczowych cech, będziesz żyć na marginesie. Jeśli zaś masz więcej niż jedną z nich, jesteś NIEZGODNYM i czeka cię całkowita eliminacja. Chyba że – tak jak Beatrice – uda ci się uciec i znaleźć drogę do podziemnego świata ludzi, którzy zdecydowali się rzucić wyzwanie bezdusznemu systemowi. Beatrice musi znaleźć w sobie dość odwagi, by zaryzykować wszystko w walce o to, co kocha najbardziej.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Księga życia', '19.99', 'http://static.kinoman.tv/s/c/b9ik/Dn/QY/m.jpg', '
+Dwóch potężnych magów zakłada się o to, czy ludzie są istotami o czystych sercach. Wśród ludzi poddanych próbie są dwaj bohaterowie filmu: Manolo – młody matador, który marzy, by zostać muzykiem i Joaquin – sportowiec i duma rodzinnego miasta. Obaj konkurują o względy Marii – pięknej i niezależnej księżniczki. Los każe im wyruszyć we wspaniałą podróż, w czasie której spotykają barwne postaci i odwiedzają niezwykłe krainy, poznając prawdę o sobie samych.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Róża', '19.99', 'http://static.kinoman.tv/s/c/Ph5X/vD/lr/m.jpg', '
+Lato 1945 roku, tuż po zakończeniu drugiej wojny światowej. Tadeusz, polski żołnierz, któremu wojna zabrała wszystko i niczego nie oszczędziła, dociera na Mazury, na ziemie, które przed wojną należały do Niemiec, a po wojnie zostały przyznane Polsce. Odnajduje wdowę po niemieckim żołnierzu, którego śmierci był świadkiem. Mieszkająca sama w dużym gospodarstwie Róża przyjmuje Tadeusza chłodno, pozwala przenocować. Tadeusz odwdzięcza się za gościnę pomocą w obejściu. Róża, choć się do tego nie przyznaje, potrzebuje czegoś więcej - przede wszystkim ochrony przed szabrownikami, którzy nachodzą jej gospodarstwo. Stopniowo Tadeusz poznaje przyczyny jej samotności... Na tle krajobrazu wyniszczonego przez wojnę, gdzie nadzieja stała się narzędziem propagandy, między dwojgiem ludzi z odległych światów rodzi się miłość... niemożliwa?
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Trzy metry nad niebem', '19.99', 'http://static.kinoman.tv/s/c/cFu7/yw/Fv/m.jpg', '
+Film opowiada historię dwóch młodych ludzi z zupełnie innych światów. Babi (María Valverde) jest spokojną studentką, Hache (Mario Casas) jest gwałtowny i porywczy. Jednak między nimi narodzi się niekonwencjonalna miłość opatrzona walką większą niż się spodziewali. Historia miłości współczesnych Romeo i Julii na podstawie powieści Federico Moccia.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Noc w muzeum: Tajemnica grobowca', '19.99', 'http://static.kinoman.tv/s/c/k1jU/QO/IM/m.jpg', '
+Film fantastyczno-przygodowy w polskiej wersji językowej, kontynuacja przebojowej serii, której dwie poprzednie części obejrzało w polskich kinach prawie milion widzów. Ben Stiller ponownie w roli Larry’ego Daleya, strażnika w muzeum, w którym nocą ożywają zgromadzone w nim niezwykłe eksponaty. Tym razem Larry wyrusza wraz z synem do Londynu, by w Muzeum Brytyjskim przeżyć największą przygodę swego życia.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Hostel 3', '19.99', 'http://static.kinoman.tv/s/c/jly5/0H/Gz/m.jpg', '
+Hazard, gdzie w grę wchodzą najwyższe stawki nabiera nowego, grzesznego znaczenia w trzecim rozdziale przerażającej sagi &quot;HOSTEL&quot;. Świętując wieczór kawalerski w Las Vegas czwórka przyjaciół zostaje namówiona przez dwie seksowne damy do towarzystwa do odwiedzenia prywatnego przyjęcia z dala od centrum. Na miejscu z przerażeniem odkrywają, że zostali przedmiotami perwersyjnej gry tortur, w której członkowie Elitarnego Klubu Łowieckiego urządzają najbardziej sadystyczne show w mieście.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Przyczajony ', '19.99', 'http://static.kinoman.tv/s/c/Yog3/pw/HR/m.jpg', '
+Prawnik Harry Venn (Philip Glenister) zostaje poproszony przez tajemniczą panią adwokat, Ginę Hawkes (Thekla Reuten), aby odnalazł zaginionego świadka, mogącego potwierdzić alibi jej klienta. Harry przystaje na to, jednak - wbrew własnej woli - zostaje przy okazji wciągnięty w śledztwo w sprawie śmierci swojego brata i zbrodni dokonanej 20 lat wcześniej. Wkrótce okazuje się, że obie sprawy są powiązane ze znacznie większą intrygą, sięgającą premiera brytyjskiego rządu.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Skumringslandet', '19.99', 'http://static.kinoman.tv/s/c/O2Hf/Gv/HH/m.jpg', '
+Jest rok 1348. William wraca do rodzinnej wioski odnaleźć brata Ansgara, którego oskarżono o kilka wyjątkowo okrutnych morderstw. Mieszkańcy są przekonani, że w to wszystko wmieszane są siły nieczyste, dlatego Ansgara poszukują nie tylko łowcy nagród, ale i Kościół. William ma niewiele czasu, by udowodnić niewinność swojego brata.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Młody Adam', '19.99', 'http://static.kinoman.tv/s/c/jBBu/7K/Au/m.jpg', '
+Film obraca się wokół kryzysu życiowego Joe`go, młodego włóczęgi, który znajduje pracę na barce. Barka jet własnością Lesa i jego zagadkowej żony Elli. Któregoś dnia Joe i Les natrafiają na ciało młodej kobiety unoszące się na wodzie. Wypadek? Samobójstwo? Morderstwo? Gdy policja podejmuje śledztwo i aresztuje podejrzanego, wychodzi na jaw, że Joe wie dużo więcej o topielicy, niż przyznaje. Śledztwo trwa, a tymczasem Joe`go i Ellę zaczyna łączyć namiętny intymny związek.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Gimme Shelter', '19.99', 'http://static.kinoman.tv/s/c/X2rD/cs/Q9/m.jpg', '
+16-letnia Apple (Vanessa Hudgens) nigdy nie miała łatwego życia. Jej matka, June (Rosario Dawson), to uzależniona prostytutka, która znęca się nad nią fizycznie i psychicznie, a także namawia córkę do pójścia w swoje ślady. Apple zna każdy zakątek dzielnicy, każdą ciemną uliczkę, w której niejednokrotnie szukała schronienia. Dziewczyna jest jednak twarda, sprytna i nie poddaje się łatwo losowi. Chcąc czegoś więcej od życia, postanawia uciec od matki i odnaleźć biologicznego ojca.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Czarownica', '19.99', 'http://static.kinoman.tv/s/c/va9q/K8/B0/m.jpg', '
+Zrealizowany z wielkim rozmachem film &quot;Czarownica&quot;, z udziałem Angeliny Jolie w roli tytułowej, został zainspirowany postacią znaną z disneyowskiej &quot;Śpiącej królewny&quot; – Diaboliną.
+Tytułowa Czarownica była niegdyś piękną i dobrą dziewczyną. Jej radosną młodość przerwała wojna, podczas której bohaterka z oddaniem broniła swojej ojczyzny. Jednak zdrada, której doświadczyła, zmieniła jej czyste serce w kamień... Żądna zemsty rzuca klątwę na Aurorę – nowonarodzoną córkę następcy tronu wrogiego królestwa.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Thor', '19.99', 'http://static.kinoman.tv/s/c/u4dV/Z1/tX/m.jpg', '
+Zrealizowany na podstawie kultowego komiksu o Thorze, władcy pioruna, synu Odyna, który został wydany w 1962 roku. Thor, który walczy za pomocą Mjollnira, młota wykonanego z tajemniczego metalu, wygnany zostaje z Asgardu, siedziby najwyższych bogów, na Ziemię. Tutaj pozbawiony zostaje wszystkich swoich boskich atrybutów i jako dr Donald Blake ma nauczyć się pokory i posłuszeństwa. O swojej przeszłości przypomina sobie dopiero kiedy przez przypadek znajduje Mjollnira. Tak rozpoczyna się jego walka o bezpieczeństwo ludzkości.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'The Lost Legion', '19.99', 'http://static.kinoman.tv/s/c/GxgI/2r/8o/m.jpg', '
+Imperium Rzymskie chyli się ku upadkowi. Cassius, który ma być nowym imperatorem, jest jeszcze dzieckiem. Tymczasem władzę przejmuje ambitny generał Maximus. Czy pod jego rządami imperium odzyska chwałę, czy może konflikt doprowadzi do wojny domowej?
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Magia w blasku księżyca', '19.99', 'http://static.kinoman.tv/s/c/XoYv/m4/ef/m.jpg', '
+Chińczyk Wei Ling Soo jest najznamienitszym iluzjonistą swoich czasów, ale mało kto wie, że za jego sceniczną maską kryje się arogancki Anglik - Stanley Crawford (Firth), żywiący wyjątkową awersję do wszelkiej maści spirytystów. Za namową przyjaciela Stanley wyrusza z misją do położonej na Lazurowym Wybrzeżu posiadłości rodziny Catledge. Na miejscu, udając zamożnego biznesmena, ma zdemaskować oszustwa pięknej kobiety-medium - Sophie Baker (Emma Stone), rzekomo potrafiącej czytać w myślach i rozmawiać z duchami. Zadanie Stanleya skomplikuje się, gdy on sam wpadnie w sidła zniewalającego uroku Sophie, a próbka niezwykłych zdolności medium na dobre zachwieje wszystkim, w co dotychczas wierzył.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Nie kłam, kochanie', '19.99', 'http://static.kinoman.tv/s/c/6A4I/eC/NX/m.jpg', '
+&quot;Nie kłam, kochanie&quot; nie jest bajką. To miłosna historia, podana lekko, jednak nie pozostająca w oderwaniu od życia, w której wszelkiego rodzaju zawirowania towarzyszące jej bohaterom wypływają z sytuacji realnych. Ma pokazać, w jaki sposób kłamstwo i manipulacja może stanąć w szranki z uczciwością, prostolinijnością i naiwnością. I – kto kogo &quot;przechytrzy&quot;, kto wygra ten pojedynek, w którym stawką jest miłość… A co robi w naszej historii kaktus? Cóż, dziewczyna, która kocha kaktusy i mówi do nich po imieniu to chyba jedyna osoba, która potrafi w kłamcy i cyniku dostrzec coś dobrego i zmienić go… A wtedy – nawet kolczasty kaktus potrafi zakwitnąć pięknym kwiatem. W większości miłosnych historii dotąd królowały róże. W naszej – kaktusy. Też z kolcami. Ale z jakim charakterem!
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Miłość na święta', '19.99', 'http://static.kinoman.tv/s/c/ZzJY/Gj/9p/m.jpg', '
+Komedia romantyczna, w której dwa psy rasy golden retriever i inscenizacja &quot;&quot;Opowieści wigilijnej&quot;&quot; niespodziewanie pomagają bohaterom odnaleźć miłość.
+Enemies Closer
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Zielona mila', '19.99', 'http://static.kinoman.tv/s/c/UMhs/VB/7K/m.jpg', '
+Rok 1935. Paul Edgecombe (Tom Hanks) jest jednym ze strażników bloku śmierci w więzieniu Cold Mountain. Do jego obowiązków należy odprowadzanie skazańców do celi śmierci długim korytarzem, wyłożonym zieloną wykładziną, zwaną &quot;Zieloną milą&quot;. Pewnego dnia do więzienia przybywa olbrzymi czarnoskóry skazaniec, John Coffey (Michael Clarke Duncan). Ma oczekiwać na karę śmierci za zamordowanie dwóch białych dziewczynek. Jego wizyta na zawsze zmieni życie Paula i pozostałych pracowników więzienia.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Rio', '19.99', 'http://static.kinoman.tv/s/c/cAfw/US/7Q/m.jpg', '
+Najnowszy film animowany twórców &quot;Epoki lodowcowej&quot;. Niezwykłe przygody udomowionej papugi, która porzuca wygodne życie w małym miasteczku na amerykańskiej prowincji i wyrusza do egzotycznego Rio de Janeiro.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Alvin i wiewiórki 2', '19.99', 'http://static.kinoman.tv/s/c/gBiI/xf/o4/m.jpg', '
+Kontynuacja jednego z największych przebojów kina rodzinnego ostatnich lat, łącząca konwencję kina aktorskiego z elementami animacji komputerowej - kolejne przygody trzech rozśpiewanych wiewiórek, które mieszkają w domu robiącego karierę autora     piosenek.                                                                                                               Akcja drugiej części opiera się na tym, że Alvin, Szymon i Teodor postanawiają przerwać karierę i wrócić do szkoły. Okazuje się, że życie to nie bajka – wiewiórki muszą stawić czoła szkolnym osiłkom, dołączyć do którejś z ekip, przeżyć szkolne wygłupy. Powrót do szkoły okaże się dla braci ciężką próbą...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Historia puszystej miłości', '19.99', 'http://static.kinoman.tv/s/c/jjPT/kr/0J/m.jpg', '
+Sam był niegdyś szkolną gwiazdą futbolu. Miał nawet szansę na grę w profesjonalnej lidze NFL. Niestety, poważna kontuzja kolana pokrzyżowała jego dobrze zapowiadającą się karierę. Siedem lat później chłopak pracuje za minimalną stawkę, jest samotny, a na dodatek ma nadwagę. Pewnego dnia Sam uświadamia sobie, że czas się za siebie zabrać. Postanawia schudnąć, a z pomocą przychodzi mu osobista trenerka, Cassie.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Więzień labiryntu', '19.99', 'http://static.kinoman.tv/s/c/LT2W/IE/dR/m.jpg', '
+Film opowiada historię nastoletniego Thomasa (Dylan O&#039;Brien), który razem z 60 innymi osobami zostaje uwięziony w tajemniczym labiryncie. Gdy wszystko wydaje się być stracone i nikt nie potrafi znaleźć wyjścia pojawia się nagle dziewczyna. Posiada ona cenną informacje, która może być pierwszym krokiem do upragnionej wolności.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Intruzi', '19.99', 'http://static.kinoman.tv/s/c/NvBQ/FO/U6/m.jpg', '
+Otwórz swój umysł. Ale najpierw zamknij drzwi! Oto thriller science-fiction oparty na ponad 600 autentycznych przypadkach spotkań z Obcymi oraz bestsellerowej powieści znawcy tematyki UFO Budda Hopkinsa, opisującej ten mroczny świat.
+Gdy znany psychiatra dr Neil Chase (Richard Crenna – „Zakład”, „Dzień, kiedy strzelano do Reagana”) rozpoczyna terapię Lesley Hahn (Daphne Ashbrook – serial „Perry Manson”) cierpiącej na powracające koszmary, zaniki pamięci i paranoję maniakalną, nie znajduje racjonalnego wyjaśnienia jej stanu. W tym samym czasie mieszkająca w Nebrasce Mary Wilkes (Mare Winningham – „Kim jest Julia?”) objawia takie same symptomy. A kiedy dr Chase spotyka ją i porównuje oba przypadki, niezwykłe podobieństwo ich koszmarów nasuwa do niedawna sceptycznemu lekarzowi myśl o możliwości obcowania jego pacjentek z UFO. Czy rzeczywiście mamy do czynienia z Obcymi, a jeśli tak, to czy ich obecność świadczy o chęci ratowania starego świata czy też pragnieniu zniszczenia go? „Intruzi” z udziałem Bena Vereena i Susan Blakely sprawią, że zaczniesz wierzyć w UFO.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'American Pie 7: Księga Miłości', '19.99', 'http://static.kinoman.tv/s/c/NoOh/Yt/e0/m.jpg', '
+Dziesięć lat po ukazaniu się pierwszej części serii &quot;American Pie&quot; trzech nieszczęśliwych prawiczków znajduje księgę, zwaną biblią miłości, w szkolnej bibliotece East Great Falls High. Niestety, książka jest zniszczona, więc chłopcy będą musieli odszyfrować treść z jej pozostałości. Dzięki księdze przeżyją pełną wrażeń podróż wiodącą do utraty dziewictwa.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Dark Summer', '19.99', 'http://static.kinoman.tv/s/c/uLFV/eg/0C/m.jpg', '
+Siedemnastolatek ma areszt domowy na lato. Jego kara zaczyna być tym bardziej dotkliwa, gdy jego dom staje się celem ataku złowrogiej emanacji.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ride Along', '19.99', 'http://static.kinoman.tv/s/c/vTmG/K3/Rt/m.jpg', '
+Ochroniarz zostaje zabrany przez przyszłego szwagra na całodobowy patrol. Chce udowodnić sobie i innym, że jest wart jego siostry.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Obywatel roku', '19.99', 'http://static.kinoman.tv/s/c/BU7A/xY/bG/m.jpg', '
+Norwegia, kraj porządnych ludzi. A najbardziej porządnym z porządnych jest Nils. W uznaniu ciężkiej pracy na rzecz społeczności oraz przepustowości lokalnych dróg zdobył właśnie tytuł Obywatela Roku. Radość Nilsa nie trwa jednak długo. Jego syn staje się przypadkową ofiarą w porachunkach przestępczego półświatka. Nils decyduje się na własne, amatorskie śledztwo. Porządek musi być. Jego niekonwencjonalne metody niezamierzenie wywołują wojnę wśród konkurujących gangów. Nawet w kraju tak porządnym i poukładanym jak Norwegia sprawy nie zawsze toczą się zaplanowanym torem.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Uprowadzona 2', '19.99', 'http://static.kinoman.tv/s/c/8Rrb/60/hs/m.jpg', '
+Po odzyskaniu córki z rąk albańskich porywaczy, Bryan Mills, były agent CIA, myślał, że to już koniec jego kłopotów. Nic bardziej mylnego. Ojciec jednego ze zgładzonych przez Bryana bałkańskich zbirów poprzysiągł zemstę i nie cofnie się przed niczym, aby dopiąć swego. Podczas rodzinnych wakacji w Istambule, Bryan wraz z żoną zostają porwani. Na wolności pozostaje jednak ich córka Kim, która pomoże ojcu wydostać się z niewoli. Teraz Bryan będzie musiał znów użyć wszystkich swych morderczych umiejętności, by ocalić żonę. Czasu pozostało niewiele. Dla porywaczy nie będzie litości.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'How to Build a Better Boy', '19.99', 'http://static.kinoman.tv/s/c/Oc6L/Q2/fI/m.jpg', '
+Mae Hartley i Gabby Harrison są super inteligentnymi nastolatkami. Mae jest zakochana w Jaden&#039;ie, w którym natomiast jest zakochana najpopularniejsza dziewczyna w szkole Nevaeh. Gdy Mae chce się umówić z Jaden&#039;em Nevaeh nie chce do tego dopuścić. W złości Mae mówi, że ma już chłopaka. W domu Mae i Gabby rozmyślają co zrobić. (upload by AgusiQ)Gabby wpada na pomysł by zbudować robotycznego chłopaka dla Mae dzięki jej ojcowi. Gdy tworzą chłopaka dają mu na imię Albert.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Skyfall', '19.99', 'http://static.kinoman.tv/s/c/kPsF/r2/o2/m.jpg', '
+Po ataku na siedzibę MI6, M zostaje zmuszona do przeniesienia działalności do podziemnego centrum. Jej każdy krok śledzi nowy przewodniczący Komitetu Wywiadu i Bezpieczeństwa, Mallory. M może zaufać tylko Bondowi. Bez względu na konsekwencje 007 będzie musiał wytropić i zniszczyć zagadkowego przeciwnika. Z pomocą agentki Eve Bond podąża tropem tajemniczego i bezwzględnego Raoula Silvy. Z czasem zaczyna odkrywać motywy jego działań.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Nieuchronna sprawiedliwość', '19.99', 'http://static.kinoman.tv/s/c/LuKN/Y5/IV/m.jpg', '
+Cierpiący na zespół stresu pourazowego po pobycie w Iraku John Nguyen (Cung Le) stara się wrócić do normalnego życia. Pewnego dnia na hotelowym parkingu przypadkowo ratuje z opresji młodą dziewczynę, raniąc i zabijając przy tym kilku wysokich rangą członków lokalnego bractwa motocyklowego. Od tego czasu on i jego rodzina stają się celem pałającego zemstą bezwzględnego przywódcy gangu Hollisa (Dolph Lundgren).
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Rytuał', '19.99', 'http://static.kinoman.tv/s/c/CFEX/sa/h9/m.jpg', '
+Zainspirowany prawdziwymi wydarzeniami film &quot;Rytuał&quot; opowiada o losach sceptycznego ucznia seminarium duchownego, Michaela Kovaka (Colin O&#039;Donoghue), który z niechęcią uczęszcza do szkoły dla egzorcystów w Watykanie. W Rzymie spotyka nieortodoksyjnego księdza, ojca Lucasa (Anthony Hopkins), który zapoznaje go z mroczną stroną wiary.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Gun Woman', '19.99', 'http://static.kinoman.tv/s/c/4PFf/9s/FP/m.jpg', '
+Niema prostytutka, Asami, przechodzi transformację, by w imieniu swojego pana dokonać zemsty.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Piąta władza', '19.99', 'http://static.kinoman.tv/s/c/Xaad/IG/0r/m.jpg', '
+Julian Assange (Benedict Cumberbatch) i jego kolega Daniel Domscheit-Berg (Daniel Brühl) zakładają WikiLeaks. Poprzez stronę internetową ujawniają skrywane sekrety władzy i przestępstwa wielkich korporacji. Wkrótce zaczynają przesyłać więcej ważnych informacji niż inne media. Kiedy uzyskują dostęp do ściśle tajnych dokumentów wywiadu USA, mierzą z pytaniem; czy konsekwencje podania do wiadomości publicznej danych nie będą większe niż pozostawienie ich w ukryciu...?
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Jak zostać królem', '19.99', 'http://static.kinoman.tv/s/c/9kEo/RB/xA/m.jpg', '
+Fascynująca opowieść o człowieku, który uratował królestwo i  w przełomowym momencie historii mężnie poprowadził Anglików w walce przeciwko najeźdźcy. Po szokującej abdykacji Edwarda VIII książę Albert musi, mimo wielkich oporów, zasiąść na tronie Anglii jako Jerzy VI. Ogromną przeszkodą w wypełnianiu monarszych obowiązków jest dla niego... problem z wysławianiem się. Jedyną osobą, która może pomóc Jerzemu w odnalezieniu własnego głosu i stawieniu czoła groźbie inwazji hitlerowskiej, okazuje się
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Gdybym tylko tu był', '19.99', 'http://static.kinoman.tv/s/c/jHqX/r8/xm/m.jpg', '
+Obraz w reżyserii Zacha Braffa (&quot;Powrót do Garden State&quot;) opowiadający historię Aidana Blooma, który w wieku 35 lat ciągle szuka swojej tożsamości. Próbuje być dobrym ojcem i mężem. Dorywcza praca aktora niestety nie pozwala na opłacenie rachunków na prywatne szkoły dla dzieci i postanawia uczyć je w domu. Aidan stara się przywrócić dobre relacje ze swoim ojcem.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Locke', '19.99', 'http://static.kinoman.tv/s/c/3eaA/FB/AN/m.jpg', '
+Ivan Locke ma idealną rodzinę, świetną pracę, a następnego dnia ma nastąpić ukoronowanie jego kariery zawodowej. Jeden telefon zmusza go do podjęcia decyzji, która stawia wszystko na jednej szali.
+&quot;Locke&quot; przykuwa uwagę dramatyczną ludzką historią o tym, jak życie jednego człowieka bezpowrotnie się zmienia w ciągu jednej nocy podczas jazdy samochodem z Birmingham do Londynu.
+W trakcie jazdy Ivan wykonuje kilka druzgocących telefonów do swojej żony Katriny (Ruth Wilson) i dwóch synów (Tom Holland i Bill Milner). Ivan musi też poradzić sobie z telefonami od Bethan, kobiety, z którą kiedyś pracował, i telefonami z pracy, w tym od swojego szefa Garetha (Ben Daniels), który niechętnie, ale zwalnia go z pracy, i od Donala (Andrew Scott), kolegi z pracy, który ma go zastąpić w najważniejszym wyzwaniu zawodowym.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Lucy', '19.99', 'http://static.kinoman.tv/s/c/MDd3/uB/Fz/m.jpg', '
+Lucy (Scarlett Johansson) mieszkająca na Tajwanie studentka zostaje namówiona przez swojego chłopaka do dostarczenia ważnej teczki pewnemu biznesmenowi. Zanim jeszcze dziewczyna zorientuje się w co została wplątana, stanie się zakładniczką bezwzględnego pana Janga (Choi Min Sik), na którego rozkaz do organizmu Lucy zostanie chirurgicznie wszyta paczka z silną syntetyczną substancją przypominającą narkotyk. Przypadkowo substancja chemiczna rzeczywiście przenika do organizmu Lucy. Pod jej wpływem ciało dziewczyny zaczyna podlegać niewyobrażalnym transformacjom, a najbardziej doświadcza tego mózg, którego potencjał zostaje uwolniony i osiąga zdumiewające, pozostające dotychczas jedynie w sferze hipotez możliwości... Z ogromną intensywnością zaczyna odczuwać wszystko, co znajduje się wokół niej - powietrze, wibracje, ludzi, nawet grawitację. Rozwijają się u niej również cechy nadludzkie - telepatia, telekineza, niezwykle rozległa wiedza oraz zapierająca dech w piersiach kontrola nad materią.  
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Filth', '19.99', 'http://static.kinoman.tv/s/c/m8z7/ft/sg/m.jpg', '
+Chory policjant-narkoman, manipulując wszystkimi dookoła, toruje sobie drogę do awansu, dzięki któremu może odzyskać również żonę i córkę.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Polowanie', '19.99', 'http://static.kinoman.tv/s/c/8lLF/ce/tp/m.jpg', '
+Niewinne kłamstwo małoletniej podopiecznej zmienia w piekło życie nauczyciela z prowincji (Mads Mikkelsen, niezapomniany przeciwnik Bonda z &quot;Casino Royale&quot;). Mężczyzna staje się celem nagonki lokalnej społeczności, która z góry uznaje go winnym i postanawia na własną rękę wymierzyć sprawiedliwość. Błyskotliwy thriller Thomasa Vinterberga, z poruszającą i zapadającą w pamięć rolą Madsa Mikkelsena, był jedną z największych sensacji ostatniej edycji MFF w Cannes, zdobywając trzy nagrody: dla najlepszego aktora, Jury Ekumenicznego oraz Vulcain Prize za zdjęcia Charlotte Bruus Christensen. &quot;Polowanie&quot; jest laureatem British Independent Film Award dla najlepszego filmu zagranicznego, Nagrody Publiczności MFF w Vancouver, zostało też nominowane do BAFTA w kategorii Najlepszy Film Nieanglojęzyczny.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Książę', '19.99', 'http://static.kinoman.tv/s/c/Gg5y/7M/jA/m.jpg', '
+Paul (Jason Patric) jest samotnym ojcem i niegdysiejszym bossem gangsterskiego półświatka Las Vegas. Gdy uprowadzona zostaje jego córka wyrusza na jej ratunek. Poszukiwania ponownie zaprowadzają go do Miasta Grzechu. Wraz z Samem (John Cusack) - przyjacielem z przeszłości, musi stawić czoła dawnym wrogom z niestrudzonym gangsterem Omarem (Bruce Willis) na czele, który latami wypatrywał okazji do zemsty. Chcąc odzyskać córkę Paul igra z własnym losem, niebezpiecznie zbliżając się do porzuconego przed laty przestępczego świata oraz reguł nim rządzących.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Locke', '19.99', 'http://static.kinoman.tv/s/c/00aP/e3/5U/m.jpg', '
+Ivan Locke ma idealną rodzinę, świetną pracę, a następnego dnia ma nastąpić ukoronowanie jego kariery zawodowej. Jeden telefon zmusza go do podjęcia decyzji, która stawia wszystko na jednej szali.
+&quot;Locke&quot; przykuwa uwagę dramatyczną ludzką historią o tym, jak życie jednego człowieka bezpowrotnie się zmienia w ciągu jednej nocy podczas jazdy samochodem z Birmingham do Londynu.
+W trakcie jazdy Ivan wykonuje kilka druzgocących telefonów do swojej żony Katriny (Ruth Wilson) i dwóch synów (Tom Holland i Bill Milner). Ivan musi też poradzić sobie z telefonami od Bethan, kobiety, z którą kiedyś pracował, i telefonami z pracy, w tym od swojego szefa Garetha (Ben Daniels), który niechętnie, ale zwalnia go z pracy, i od Donala (Andrew Scott), kolegi z pracy, który ma go zastąpić w najważniejszym wyzwaniu zawodowym.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Non-Stop', '19.99', 'http://static.kinoman.tv/s/c/Wfy6/vi/aE/m.jpg', '
+Agent federalny Bill Marks ma za zadanie bronić bezpieczeństwa pasażerów linii lotniczych. Nie znosi latać, a swoją pracę traktuje jako zło konieczne. Ale dzisiejszy lot będzie daleki od rutyny. Chwilę po starcie na jego szyfrowany telefon przychodzi wiadomość z żądaniem 150 milionów dolarów okupu. W przypadku odmowy co 20 minut ginąć będzie kolejny pasażer. Wkrótce okaże się jednak, że przestępcom nie chodzi o pieniądze. Stawka jest znacznie wyższa. 13000 metrów nad Atlantykiem, w pędzącej z prędkością 800 km/h maszynie rozpoczyna się gra o życie 146 podróżnych. Jeden z nich jest nieuchwytnym zabójcą...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Skyfall', '19.99', 'http://static.kinoman.tv/s/c/BQNG/PH/Y8/m.jpg', '
+Po ataku na siedzibę MI6, M zostaje zmuszona do przeniesienia działalności do podziemnego centrum. Jej każdy krok śledzi nowy przewodniczący Komitetu Wywiadu i Bezpieczeństwa, Mallory. M może zaufać tylko Bondowi. Bez względu na konsekwencje 007 będzie musiał wytropić i zniszczyć zagadkowego przeciwnika. Z pomocą agentki Eve Bond podąża tropem tajemniczego i bezwzględnego Raoula Silvy. Z czasem zaczyna odkrywać motywy jego działań.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Trzy metry nad niebem', '19.99', 'http://static.kinoman.tv/s/c/8uqc/2m/l0/m.jpg', '
+Film opowiada historię dwóch młodych ludzi z zupełnie innych światów. Babi (María Valverde) jest spokojną studentką, Hache (Mario Casas) jest gwałtowny i porywczy. Jednak między nimi narodzi się niekonwencjonalna miłość opatrzona walką większą niż się spodziewali. Historia miłości współczesnych Romeo i Julii na podstawie powieści Federico Moccia.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Philly Kid', '19.99', 'http://static.kinoman.tv/s/c/K1Ie/t9/jO/m.jpg', '
+Dillon (Wes Chatham) to były zapaśnik a zarazem mistrz NCAA, który został niesłusznie skazany za napaść na policjanta. Po dziesięciu latach opuszcza więzienie i wraca do domu w Baton Rouge, w Luizjanie. Wkrótce odkrywa, że jego przyjaciel Jake (Devon Sawa) ma poważne kłopoty związane z hazardem. Dillon postanawia spłacić jego dług poprzez walki w klatkach.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, ' Jeff Dunham Live All Over the Map', '19.99', 'http://static.kinoman.tv/s/c/3pqc/hA/xZ/m.jpg', '
+Jeff Dunham (brzuchomówca) oraz jego goście (kukiełki) sprawią, że będziecie mieli ubaw po pachy.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Pod skórą', '19.99', 'http://static.kinoman.tv/s/c/VsZJ/79/aW/m.jpg', '
+Tajemnicza brunetka (czterokrotnie nominowana do Złotego Globu Scarlett Johansson) przemierza szkockie drogi, polując na samotnych mężczyzn-autostopowiczów. Zwabieni przez atrakcyjną kobietę pasażerowie są usypiani i przewożeni na odludną farmę, gdzie czeka ich szokujący i okrutny los…
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Tedi i poszukiwacze zaginionego miasta', '19.99', 'http://static.kinoman.tv/s/c/1MMV/Iu/cx/m.jpg', '
+Tedi Stones od dziecka marzy, by zostać łowcą skarbów. Zabawny zbieg okoliczności sprawia, że poczciwy budowlaniec zostaje wzięty za profesora archeologii. Razem z piękną podróżniczką Sarą, postrzelonym Peruwiańczykiem Freddy&#039;m, psem-łakomczuchem Jeffem i niemą papugą &quot;Angry Birdem&quot; Belzonim, wyrusza na poszukiwania Zaginionego Miasta Inków. Legenda głosi, że ukryto tam magicznego Złotego Bożka, który obdarza swego właściciela nieśmiertelnością. Tropem ekipy łowców przygód podąża czarny charakter Arnoldson, działający na zlecenie międzynarodowej szajki rabusiów dzieł sztuki.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ostatni bastion', '19.99', 'http://static.kinoman.tv/s/c/H3wG/5e/1B/m.jpg', '
+Robert Redford gra skazanego przez sąd wojskowy generała Irwina. Wyrokiem sądu zostaje on osadzony w więzieniu. Nadzór nad placówką sprawuje pułkownik Winter (James Gandolfini), którego metody resocjalizacji budzą sprzeciw więźniów. Wkrótce generał stanie się inspiratorem buntu przeciwko strażnikowi i jego ludziom.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'The Signal', '19.99', 'http://static.kinoman.tv/s/c/tlMT/ki/1t/m.jpg', '
+Nick (Brenton Thwaites) i Jonah (Beau Knapp) zaczynają swój pierwszy rok na MIT. Chłopacy w wolnych chwilach zajmują się hakerstwem. Pewnego dnia Nick wraz ze swoją dziewczyną - Haley (Olivia Cook) i najlepszym przyjacielem decyduje się odnaleźć rywalizującego z nim komputerowcem o pseudonimie Nomad. Kiedy odnajdują hakera, dochodzi do przerażającej konfrontacji...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'St George&#039;s Day', '19.99', 'http://static.kinoman.tv/s/c/rm7C/Uj/db/m.jpg', '
+Opowieść o dwóch zniesławiony gangsterach Londynu, Mickey Mannock (Frank Harper) oraz Ray Collishaw (Craig Fairbrass). Obaj mężczyźni dzielą i rządzą będąc na szczycie łańcucha pokarmowego. Pewnego dnia tracą ładunek kokainy należący do rosyjskiej mafii, wówczas ich świat zostaje wywrócony do góry nogami. 
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Anioły kontra cyborgi', '19.99', 'http://static.kinoman.tv/s/c/MuP5/Gv/kR/m.jpg', '
+Seksowne kociaki przeciwko armii cyborgów. Szalone pościgi, krwawe potyczki, setki wystrzelonych kul, odwieczna walka dobra ze złem – a wszystko to w szalonym tempie i okraszone kobiecym wdziękiem w ekscytującym filmie akcji z elementami thrillera i science fiction. Witamy w Elliotsville. Typowe małe amerykańskie miasteczko, z tą tylko drobną różnicą, że w dużej mierze zamieszkałe przez... cyborgi. Zostały one stworzone przez siły rządowe, które w ten sposób mogą kontrolować każdy zaułek kraju. Na domiar złego władzę nad nimi zdobywa diaboliczny Elliot, człowiek o bardzo złych zamiarach. Nie będzie mu jednak łatwo je zrealizować, bowiem do boju wkracza gang motocyklistek. Dziewczyny są piękne, zdeterminowane i śmiertelnie niebezpieczne. Rozpoczyna się walka o dużą stawkę.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Jeździec znikąd', '19.99', 'http://static.kinoman.tv/s/c/chkv/6G/uH/m.jpg', '
+Tonto (Johnny Depp) to Indianin wywodzący się z plemienia Komanczów. Pewnego dnia ratuje życie stróżowi prawa, Johnowi Reidowi (Armie Hammer), którego wszyscy towarzysze zostali zamordowani przez bandytów. Reid pragnie pomścić ich śmierć. Po powrocie do zdrowia, jako zamaskowany mściciel, postanawia sam wymierzyć sprawiedliwość zabójcom swoich przyjaciół. Z pomocą spieszy mu tajemniczy Indianin.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Zgroza w probówce', '19.99', 'http://static.kinoman.tv/s/c/adoX/g6/cn/m.jpg', '
+Pięćdziesiąt lat temu, profesor Uniwersytetu Yale, Stanley Milgram  przeprowadził szereg eksperymentów, opartych na psychologii nazistowskich zbrodniarzy. Miały one służyć odpowiedzi na proste pytanie: jak daleko ludzie się posuną, wykonując polecenia władzy? Nick (Eric Jay Beck), wraz z dziewczyną Tayler (April Matson) i dwójką najlepszych przyjaciół, zostają porwani. Budzą się w nieznanym miejscu, a do podstawy czaszki wszczepione mają przewody z fiolkami. Ich zadaniem jest, wypełnienie fiolek płynem, który mózg wytwarza tylko podczas ekstremalnego bólu. Mają na to 22 godziny.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Mroczny rycerz', '19.99', 'http://static.kinoman.tv/s/c/WGN5/HL/pt/m.jpg', '
+W nowym filmie Batman podejmuje szeroko zakrojoną walkę z przestępczością. Z pomocą porucznika Jima Gordona i prokuratora okręgowego Harveya Denta zabiera się za rozpracowywanie istniejących organizacji przestępczych nękających mieszkańców miasta. Współpraca przynosi efekty, ale bohaterowie wkrótce padną ofiarą chaosu, który rozpęta rosnący w siłę genialny przestępca, znany przerażonym mieszkańcom Gotham jako Joker.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Obietnica', '19.99', 'http://static.kinoman.tv/s/c/iluG/D4/Qq/m.jpg', '
+Lila i Janek, uczniowie wielkomiejskiego liceum, należą do generacji, która komunikuje się głównie przez Skype’a i Facebooka. Wraz z przyjaciółmi korzystają z życia na całego. Imprezują, eksperymentują z alkoholem i marihuaną. Jednak pewnego dnia Lila nieoczekiwanie zrywa z Jankiem, oskarżając go o zdradę. Zakochany chłopak będzie musiał zapłacić wysoką cenę za niewinny błąd. Jeśli spełni obietnicę, którą wymogła na nim dziewczyna, nic już nie będzie takie jak przedtem...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Unknown Caller', '19.99', 'http://static.kinoman.tv/s/c/B14S/Qd/NA/m.jpg', '
+Michael mieszka w idealnym domu - inteligentnym i wyposażonym w elektroniczne systemy oraz najlepsze zabezpieczenia. Pewnego wieczora odbiera telefon od psychopaty, który przejmuje kontrolę nad całym domem, i, jak się szybko okazuje, także nad życiem jego i jego bliskich. Michael ma 90 minut, aby znaleźć odpowiedź na jedno pytanie - &quot;kim jest jego rozmówca?&quot;. Jeśli nie zdoła się ego dowiedzieć, mimo pięciu wskazówek, jego dom zniknie z powierzchni ziemi, wraz z nim i jego rodziną.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'The Riot Club', '19.99', 'http://static.kinoman.tv/s/c/gLF1/WX/Zf/m.jpg', '
+Pochodzący z zamożnych rodzin Miles i Alistair rozpoczynają naukę na Oksfordzie. Wstępują również do klubu Riot, w którym członkowie uważają, że wszystko można zdobyć za pieniądze.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Seks to nie wszystko', '19.99', 'http://static.kinoman.tv/s/c/0GVS/zh/yS/m.jpg', '
+„Seks to nie wszystko” tytuł sam w sobie nawiązuje do treści, przedstawionej poprzez obrazy w filmie. Opowieść ta nakreśla obraz dwojga ludzi, których wzajemne losy łączy niepohamowana żądza miłości. Wspomniane „kochanie” odpowiada ogromnemu pociągowi seksualnemu, które stanowi motyw ukojenia chęci kochania sercem. Pewna siebie oraz świadoma mocy kobiecego ciała bohaterka, wykorzystuje swoje walory, ku zaspokojeniu pragnień bliskości –za którą uważa osiągnięcia pełni szczęścia podczas seksu, a więc orgazm. Zapoznając pewnego mężczyznę, opiera „pierwszy krok poznania” na ukazaniu swojej wyzwolonej natury. Od początku znajomości łączy ich wielka namiętność, w której się zatracają. Uprawianie miłości, staje się metaforą bliskości, tak znacząco ukazując jej brak w życiu kochanków.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Siedem dusz', '19.99', 'http://static.kinoman.tv/s/c/S2Th/WZ/Xx/m.jpg', '
+Film &quot;Siedem dusz&quot; to pełna tajemnic, zaskakująca historia miłosna, która zadaje prowokacyjne pytania na temat życia i śmierci, żalu i przebaczenia, przyjaźni, miłości i odkupienia. Opowiada o związkach, które w bardzo nieoczekiwany sposób łączą ze sobą ludzkie losy. To poruszająca opowieść o człowieku nękanym pewną tajemnicą, który decyduje się odkupić swoje winy drastycznie zmieniając życie siedmiu zupełnie obcych sobie osób. Kiedy już wprowadza swój plan w czyn, nic nie jest w stanie zmienić jego postanowienia. A może tak mu się tylko wydaje... Ben Thomas (Will Smith) nigdy nie spodziewałby się tego, że zakocha się  w jednej z nieznajomych i to właśnie ona zacznie go zmieniać.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Nobels testamente', '19.99', 'http://static.kinoman.tv/s/c/SnN3/Ng/P4/m.jpg', '
+W trakcie bankietu noblowskiego reporterka, Annika, staje się świadkiem morderstwa dwóch osób. Podejrzewając, że prawdziwy cel ataku był zupełnie inny, rozpoczyna własne śledztwo
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Bez litości', '19.99', 'http://static.kinoman.tv/s/c/RMGc/3J/Ic/m.jpg', '
+Młoda, pociągająca dziewczyna przyjeżdża do domku w malowniczej okolicy, by napisać książkę. Początkowo sceneria wywołuje w niej uczucie spełnienia - jezioro, cisza i spokój, czego więc chcieć więcej? Sytuacja zmienia sie diametralnie, kiedy poznaje lekko ułomnego Matthew&#039;a (Chad Lindberg), który przychodzi naprawić jej klozet. Ta daje mu  buziaka, w ramach podziękowania za wykonaną robotę. Chłopak podniecony chwali się okolicznym lumpom, którzy knują zbrodniczą intrygę... Zamierzają zgwałcić bezbronną dziewczynę. W roli głównej Sarah Butler.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Moja szurnięta rodzinka', '19.99', 'http://static.kinoman.tv/s/c/kFpY/MJ/4F/m.jpg', '
+Kostia, młody reżyser reklam, ma niecodzienny problem. Każdą kolejną dziewczynę płoszy jego rodzina. Ojciec, z wykształcenia entomolog, porównuje dziewczyny syna do owadów, a matka wmawia im szybkie zamążpójście. Siostra Katia i niemówiący po rosyjsku dziadek dopełniają obraz. Dziewczyny po prostu uciekają...
+Pewnego dnia Kostia poznaje Wikę, dziewczynę inną niż wszystkie. Przezornie trzyma ją z dala od rodzinki. Ale po rocznej znajomości młodzi pragną wziąć ślub. Wika przedstawia Kostię swoim rodzicom, teraz pora, aby wszyscy poznali jego rodziców. Kostia jest przerażony. I tu serdeczny przyjaciel i kolega z pracy Stas podsuwa mu niezwykły pomysł. Proponuje, aby jego rodziców zagrali aktorzy, którzy grali u niego w reklamie majonezu.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Zabawa w duszenie', '19.99', 'http://static.kinoman.tv/s/c/4Cjr/JL/PP/m.jpg', '
+Taryn jest zwyczajną nastolatką, która jak wiele dziewcząt w jej wieku pragnie czegoś więcej niż szare życie. Gdy w jej szkole pojawia się nowa uczennica, dziewczyny szybko się zaprzyjaźniają. Nina namawia Taryn do udziału w niezwykle emocjonującej, ale i ryzykownej zabawie - uczy ją wstrzymywać oddech, aż do osiągnięcia stanu euforii. Taryn nie ma pojęcia, że takie igranie z własnym ciałem może być dla niej śmiertelnie niebezpieczne...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Klik: I robisz, co chcesz', '19.99', 'http://static.kinoman.tv/s/c/0gGN/Vf/nD/m.jpg', '
+Michael Newman ma piękną żonę i dwójkę wspaniałych dzieci. Niestety nie widuje ich często, gdyż do późna pracuje w firmie architektonicznej. Bardzo się stara, mając nadzieję, że szef doceni jego wysiłki i zaproponuje mu, aby został jego partnerem w spółce. A wtedy Michael będzie mógł wreszcie poświęcić więcej uwagi żonie i dzieciakom.
+Po kolejnym wieczorze spędzonym w pracy wraca do domu zmęczony i zdenerwowany. Chcąc obejrzeć wiadomości, myli piloty i zamiast włączyć telewizor uruchamia zabawkę dzieci. Jeszcze bardziej zdenerwowany stwierdza, że jedynym rozwiązaniem tego problemu będzie zakup nowego pilota.
+Udaje się więc na zakupy w poszukiwaniu pilota uniwersalnego. W sklepie ze sprzętem domowym sprzedawca proponuje mu nabycie eksperymentalnego pilota, który z pewnością odmieni jego życie. I - jak się okazuje - nie był to tylko chwyt marketingowy. Z nabytku Michael jest bardzo zadowolony, bo teraz może uruchomić każde urządzenie domowe jednym przyciskiem.
+Jednak pilot ma też inne, bardziej zadziwiające funkcje. Może np. stłumić szczekanie psa, przewinąć do przodu kłótnię Michaela z żoną i w ten sposób zmienić jej wynik, a nawet funkcję pozwalającą na podróże w czasie. Michael szybko uzależnia się od nowego gadżetu, który powoli sam zaczyna programować jego życie...
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Resident Evil: Retrybucja', '19.99', 'http://static.kinoman.tv/s/c/Aewv/xF/34/m.jpg', '
+Piąta część kasowej serii. Dawno temu Alice padła ofiarą spisku bezwzględnej korporacji. Teraz walczy o przetrwanie w świecie opanowanym przez hordy bezwzględnych zombie. Kolejna odsłona kultowego cyklu z Millą Jovovich w roli głównej.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'American Heist', '19.99', 'http://static.kinoman.tv/s/c/xa0q/TR/1a/m.jpg', '
+Dwójka braci z mroczną przeszłością postanawia dokonać ostatniego w swojej &quot;karierze&quot; napadu na banku. Nie wszystko idzie po ich myśli.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Underworld: Przebudzenie', '19.99', 'http://static.kinoman.tv/s/c/4R9X/fz/Xl/m.jpg', '
+Długo wyczekiwana kontynuacja trylogii, która na całym świecie zarobiła niemal 300 milionów dolarów. Kate Beckinsale powraca w roli wampirzycy Seleny, która po latach uśpienia budzi się w świecie, w którym ludzie wiedzą już o istnieniu wampirów i lykanów. Trwają przygotowania do wielkiej wojny, skierowanej przeciwko dwóm nieśmiertelnym rasom.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Sin City 2: Damulka warta grzechu', '19.99', 'http://static.kinoman.tv/s/c/Wv7K/ZP/4I/m.jpg', '
+Dwight (Josh Brolin) jest detektywem-fotografem, który specjalizuje się w zdjęciach kompromitujących zdeprawowanych bogaczy. Jego życie staje na głowie, kiedy na nowo wkracza w nie Ava (Eva Green) - dawna miłość, kobieta warta każdego grzechu. Ruszając na pomoc kochance, Dwight szybko odkryje, że znalazł się w środku intrygi, która może przerosnąć nawet największego twardziela. W tej sytuacji przyjdzie mu połączyć siły z nieobliczalnym zabijaką - Marvem (Mickey Rourke).
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Bang Bang!', '19.99', 'http://static.kinoman.tv/s/c/ZDA9/Wa/rJ/m.jpg', '
+Młoda pracownica banku zostaje wplątana w aferę związaną z jej klientem, który okazuje się tajnym agentem.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Podróż na sto stóp', '19.99', 'http://static.kinoman.tv/s/c/Ef4M/jw/rF/m.jpg', '
+Dystyngowana Madame Mallory (Helen Mirren) od lat kieruje cenioną restauracją w niewielkiej miejscowości na południu Francji. Sława jej potraw wykracza daleko poza lokalną społeczność. A przyznana lokalowi prestiżowa gwiazdka w słynnym Przewodniku Michelina napawa dumą wszystkich mieszkańców. Pewnego dnia w miasteczku osiada rodzina emigrantów z Bombaju. Gdy przybysze otwierają skromny lokal vis a vis renomowanej restauracji, Madame Malory nie kryje oburzenia wobec ich kulinarnego nieokrzesania. Unoszące się w powietrzu zmysłowe nuty curry, kardamonu i kminu sprawiają jednak, że nowa knajpka zaczyna cieszyć się coraz większym zainteresowaniem. Czy uwodzicielskie smaki Orientu przekonają do życzliwych Hindusów również kuchenną arystokratkę?
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ratujmy Mikołaja!', '19.99', 'http://static.kinoman.tv/s/c/q3Ly/uw/gC/m.jpg', '
+Elf Bernard marzy, aby trafić do elitarnej grupy naukowców pracujących w tajnym laboratorium Świętego Mikołaja. Jednak, za sprawą niefortunnego wynalazku, poczciwy pechowiec niechcący ujawnia lokalizację laboratorium chciwemu miliarderowi. Złoczyńca pragnie ukraść sekrety Mikołaja i wejść w posiadanie magicznej Kuli Czasu, która umożliwia wręczenie prezentów dzieciom na całym świecie w zaledwie jedną noc. Jedynym sposobem na powstrzymanie zła, naprawienie szkód, uratowanie Mikołaja i świąt Bożego Narodzenia jest ratunkowa misja w czasie, która wywołuje całą masę zabawnych komplikacji. W pełnej przygód podróży Bernardowi towarzyszy wesoły renifer z latającego zastępu Świętego Mikołaja.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Cryptic', '19.99', 'http://static.kinoman.tv/s/c/uJZs/c1/pM/m.jpg', '
+W mrocznej krypcie cmentarnej zjawia się ośmiu przedstawicieli londyńskiego półświatka. Mają za zadnie pilnować znajdującej się tam trumny. Żaden z nich nie wie, co w niej jest. Uwięzieni w zamkniętym pomieszczeniu, szybko zaczynają się kłócić i walczyć o wpływy. Co gorsza, nabierają podejrzeń, że wśród nich jest wampir..
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Morderstwo pierwszego stopnia', '19.99', 'http://static.kinoman.tv/s/c/6exg/6u/pl/m.jpg', '
+Film inspirowany prawdziwą historią. Drobny przestępca wysłany do Alcatraz w 1930r. zostaje złapany na usiłowaniu ucieczki. Karą jest odesłanie do izolatki. Maksymalny czas zamknięcia w izolatce wynosi 19 dni, ale Henry spędza tam 3 lata, w kompletnych ciemnościach i zimnie. W wyniku tego staje się szaleńcem, a niedługo potem mordercą. Film śledzi poczynania prawnika, który usiłuje udowodnić, że winę za śmierć ponosi Alcatraz i Henry nie powinien być schwytany.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ralph Demolka', '19.99', 'http://static.kinoman.tv/s/c/aMey/y2/Yc/m.jpg', '
+Bohaterem filmu jest osiłkowaty Ralph, który na co dzień jest czarnym charakterem w grze komputerowej. Jednak w głębi duszy Ralph to miły i ciepły facet, mający po prostu dość swojej roboty, która nie zjednuje mu przyjaciół. Pewnego dnia postanawia udowodnić, że on też nadaje się na prawdziwego superbohatera. Zdeterminowany wyrusza w misję, aby zdobyć Medal Bohatera. Na swojej drodze spotka bardzo energiczną dziewczynkę - Wandelopę, która, podobnie jak on, jest odrzucona przez społeczność swojej gry. Gdy okoliczności zmuszą ich do współpracy, oboje odkryją, że istnieje coś znacznie cenniejszego niż wszystkie nagrody świata: prawdziwa przyjaźń.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ostatnie piętro', '19.99', 'http://static.kinoman.tv/s/c/oyqE/b2/6r/m.jpg', '
+Zobacz świat, do którego, do tej pory, nie miałeś dostępu. Kapitan Wojska Polskiego (Janusz Chabior), trafia na ślad afery, która zmieni całe jego życie. Wierząc, że musi stanąć w obronie swojej rodziny, złamie wszystkie wojskowe regulaminy.
+Kto tak naprawdę jest największym zagrożeniem dla jego bliskich? Czy z miłości można zamienić swoją rodzinę w zakładników? W czasach, gdy patriotyzm dla większości ludzi jest pustym frazesem, dla niego stanie się sensem życia. Inspirowany prawdziwymi wydarzeniami thriller, dostarcza emocji, po których na drżących nogach wychodzi się z kina.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Nebraska', '19.99', 'http://static.kinoman.tv/s/c/WaqW/i1/Ji/m.jpg', '
+Podstarzały alkoholik Woody (Bruce Dern) dowiaduje się, że wygrał na loterii milion dolarów. By odebrać jednak nagrodę, musi się udać do Nebraski. Postanawia więc zabrać ze sobą swojego syna, Davida (Will Forte), lecz mężczyzna nie wierzy w wygraną ojca i sądzi, że padł on ofiarą oszustów, wysyłających zwycięskie losy po całej Ameryce. Pomimo sceptycznego nastawienia, David dołącza do ojca i wspólnie udają się w podróż, spotykając po drodze krewnych i znajomych, którym Woody jest winny pieniądze.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Milion sposobów, jak zginąć na Zachodzie', '19.99', 'http://static.kinoman.tv/s/c/xMv0/lW/cB/m.jpg', '
+&quot;Milion sposobów, jak zginąć na Zachodzie&quot; to opowieści o Albercie, tchórzliwym hodowcy owiec. Gdy Albert wykręcił się od uczestnictwa w tradycyjnej strzelaninie, jego kapryśna dziewczyna rzuciła go dla innego. Tajemnicza nieznajoma, która właśnie przybyła do miasta, pomogła Albertowi odzyskać wiarę w siebie, a co więcej para zaczęła mieć się ku sobie. Niestety, w mieście zjawił się również mąż kobiety, notoryczny przestępca, dysząc żądzą zemsty. I oto Albert musi przetestować świeżo odzyskaną odwagę.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Need for Speed', '19.99', 'http://static.kinoman.tv/s/c/mvz4/Wj/QO/m.jpg', '
+Kierowca rajdowy - Tobey - wychodzi z więzienia po odsiedzeniu kary za przestępstwo, w które wrobił go dawny wspólnik. Szukając okazji do zemsty zgłasza akces do nielegalnych, ekstremalnych rajdów ulicznych. Tymczasem dawny wspólnik na wieść o jego uwolnieniu, wyznacza nagrodę za jego głowę.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ambassada', '19.99', 'http://static.kinoman.tv/s/c/fqmM/Mg/q3/m.jpg', '
+Mela i Przemek przyjeżdżają do Warszawy, aby zająć się mieszkaniem wuja. Okazuje się ono nie tylko luksusowe, ale i niezwykłe. Melania, zgłębia historię domu i odkrywa, że na ulicy Piusa 17 - dziś Pięknej - przed wojną znajdowała się niemiecka ambasada. Winda, która znajduje się w budynku, nie tylko przenosi mieszkańców z piętra na piętro, ale też umożliwia podróż w czasie: z sierpnia 2012 roku do sierpnia 1939 roku.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Wkręcony: Prawdziwe życie klawisza', '19.99', 'http://static.kinoman.tv/s/c/l74T/vf/bL/m.jpg', '
+Film oparty na książce pod tym samym tytułem. Bohaterem obrazu jest Sam Norwood, strażnik, który przez siedem lat pracował w najniebezpieczniejszym więzieniu w Wielkiej Brytanii. Mężczyzna wielokrotnie spotkał się z korupcją wśród swoich współpracowników, a także handlem narkotykami w obrębie więzienia.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Życie jak dom', '19.99', 'http://static.kinoman.tv/s/c/vagG/K3/9y/m.jpg', '
+Architekt George Monroe (Kevin Kline) jest rozwiedzionym 50-latkiem, mieszkającym samotnie w ruderze, która przypomina raczej szopę niż dom. Niespodziewanie mężczyzna staje w obliczu faktów, które odmieniają jego dotychczasowe życie. Najpierw zostaje wyrzucony z pracy, a następnie dowiaduje się, że jest chory na raka i ma przed sobą niewiele czasu. Ta ekstremalna sytuacja mobilizuje George&#039;a do działania, by nareszcie zrobić z życiem to, czego zawsze pragnął. Ludzie, o których prawie zapomniał: eks-żona Robin (Kristin Scott Thomas) oraz nastoletni i bardzo kłopotliwy syn Sam (Hayden Christensen) na nowo stają się dla niego najważniejsi. Postanawia zbudować dom swoich marzeń i zanim się zorientuje, zacznie także odbudowywać świat wokół siebie.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Ida', '19.99', 'http://static.kinoman.tv/s/c/klNS/23/Hk/m.jpg', '
+Lata 60. w Polsce. Anna jest nowicjuszką, sierotą wychowywaną w zakonie. Przed złożeniem ślubów matka przełożona stawia warunek: Anna musi odwiedzić swoją ciotkę Wandę, jedyną żyjącą krewną. Obie wyruszają w podróż, która ma im pomóc nie tylko w poznaniu tragicznej historii ich rodziny, ale i prawdy o tym, kim są. Poruszający, kameralny, wybitny w obrazie dramat, którym reżyser wraca do rodzinnego kraju. Z wielkim wyczuciem łączy intymną historię młodej kobiety z historycznym i społecznym tłem.
+');
+
+INSERT INTO `film` (`id`, `nazwa`, `cena`, `img_url`, `opis`) VALUES (NULL, 'Jak się pozbyć cellulitu', '19.99', 'http://static.kinoman.tv/s/c/e7jq/Ka/1e/m.jpg', '
+Jak się pozbyć cellulitu to pełna niespodzianek komedia o kobiecej przyjaźni wystawionej na ekstremalną próbę. Dwie przyjaciółki - Ewa (Dominika Kluźniak) i Maja (Maja Hirsch) - poznają w ekskluzywnym SPA piękną masażystkę Kornelię (Magdalena Boczarska), która wciąga je w wir szalonych przygód. W trakcie tych przeżyć dziewczyny połączy głęboka przyjaźń, której fundamentem jest prosta prawda życiowa: natrętny facet bywa gorszy od cellulitu i jeszcze trudniej się go pozbyć.
+');
