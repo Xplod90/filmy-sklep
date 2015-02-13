@@ -56,7 +56,7 @@ class dostawa {
     }
   }
 
-  function get($db,$id) {
+  function get($db, $id) {
     if(gettype($id) != "integer") {
       throw new Exception("Value not integer");
     }

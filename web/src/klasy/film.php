@@ -76,30 +76,21 @@ class film {
   }
 
   function delete($db) {
-    if(is_null($this->_id)) {
-      return;
-    }
-    else {
-      $query = $db->prepare("DELETE FROM `film` WHERE `id`=? LIMIT 1;");
-      $query->execute(array($this->_id));
-    }
+    $query = $db->prepare("DELETE FROM `film` WHERE `id`=? LIMIT 1;");
+    $query->execute(array($this->_id));
   }
 
   function get($db,$id) {
-    if(gettype($id) != "integer") {
-      throw new Exception("Value not integer");
-    }
-    else {
-      $query = $db->prepare("SELECT `id`,`nazwa`,`cena`,`img_url`,`opis` FROM `film` WHERE `id`=? LIMIT 1;");
-      $query->execute(array($id));
-      foreach ($query->fetchAll() as $row_id => $row_data) {
-        $this->_id = $row_data["id"];
-        $this->_nazwa = $row_data["nazwa"];
-        $this->_cena = $row_data["cena"];
-        $this->_img_url = $row_data["img_url"];
-        $this->_opis = $row_data["opis"];
-      }
+    $query = $db->prepare("SELECT `id`,`nazwa`,`cena`,`img_url`,`opis` FROM `film` WHERE `id`=? LIMIT 1;");
+    $query->execute(array($id));
+    foreach ($query->fetchAll() as $row_id => $row_data) {
+      $this->_id = $row_data["id"];
+      $this->_nazwa = $row_data["nazwa"];
+      $this->_cena = $row_data["cena"];
+      $this->_img_url = $row_data["img_url"];
+      $this->_opis = $row_data["opis"];
     }
   }
 }
+
 ?>
