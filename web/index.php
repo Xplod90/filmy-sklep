@@ -9,16 +9,16 @@
 Ładowanie potrzebnych klas
 */
 require 'src/klasy/film.php';
-require 'src/klasy/koszyk.php';
-require 'src/klasy/dostawa.php';
+require 'src/klasy/zamowienia.php';
+//require 'src/klasy/dostawa.php';
 
 /*
 Pobieranie wartośc z bazy danych i tworzenie nowych obiektow
 Stworzenie odpowiednich tablic
 */
 $filmy = array();
-$dostawy = array();
-$koszyki = array();
+//$dostawy = array();
+$zamowienia = array();
 
 /*
 Pobieranie filmów i tworzenie ogolnej tablicy zawierającej wszystkie filmy
@@ -38,14 +38,14 @@ foreach($db->query('SELECT `id` from `film`') as $row) {
 /*
 Pobieranie wszystkich dostaw
 Analogicznie do tego jak pobierane są film, dlatego bez komentarzy
-*/
+
 
 foreach($db->query('SELECT `id` from `dostawa`') as $row) {
 	$dostawa = new Dostawa();
 	$dostawa->get($db, $row['id']);
 	$dostawy[] = $dostawa;
 }
-
+*/
 
 var_dump($filmy[0]);
 ?>
