@@ -1,13 +1,20 @@
 <?php
+// Przeleć całą pętle filmy i wyświetl każdy film
 	foreach ($filmy as $i=>$film) {
+		// Jesli index ($i) jest wiekszy niż ostatni rekord który ma zostać wyświetlany ($end)
+		// lub
+		// Jeśli index ($i) jest mniejszy niż pierwszy rekord od ktorego zaczynamy wyswietlanie
+		// Nie wyświetlaj filmu ( to jest odnośnie numerowania stron )
 			if ($i>=$end || $i<$start)
 				continue;
 		?>
 		<div class="row clearfix">
 		<div class="col-md-1 column number">
+		<!-- Numer filmu -->
 				<?=$i+1?>
 		</div>
 			<div class="col-md-1 column">
+				<!-- Adres do obrazka -->
 				<img src="<?=$film->_img_url?>">
 			</div>
 			<div class="col-md-9 column" style="padding-left:40px">
@@ -18,8 +25,8 @@
 			</div>
 			<div class="col-md-1 column">
 				<div class="btn-group-vertical" style="height:100%">
-					<button class="btn btn-primary" type="button">
-					<span class="badge pull-right">Kupiono 323 razy</span> </button>
+					<!---<button class="btn btn-primary" type="button">
+					<span class="badge pull-right">Kupiono 323 razy</span> </button>-->
 					<?php 
 					// jeśli film jest juz w koszyku to bez możliwości jego ponownego kupienia
 	

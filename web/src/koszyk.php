@@ -1,4 +1,5 @@
 <?php
+// Łączna cena wszystkich filmów w koszyku, ustawiamy zmienną na 0
 $summaryPrice = 0;
 ?>
 <div class="view pull-right">
@@ -7,11 +8,16 @@ $summaryPrice = 0;
         <?php
         
         foreach ($_SESSION['filmy-koszyk'] as $film) {
+
+        	// Wyświetla wszystkie filmy jakie są w koszyku ich nazwę i cenę
+        	// Na internetice znaleźliźmy funkcje serialize() i unserialize() ktore pozwalając przetrzymywać 
+        	// kalsy w danych sesji
         	$film = unserialize($film);
         	echo $film->_nazwa.' - '.$film->_cena.'$<br/>';
         	$summaryPrice += $film->_cena;
         }
         ?>">
+          <!-- Wyświetlenie ilość filmów w koszyku -->
           <span class="badge"> <?=count($_SESSION['filmy-koszyk'])?> </span>
           <small>filmow w koszyku</small>
         </span>
