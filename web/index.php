@@ -1,7 +1,5 @@
 <?php
-ini_set('display_errors',1);
-ini_set('display_startup_errors',1);
-error_reporting(-1);
+
 /*
 Łaczenie z bazą danych 
 */
@@ -97,78 +95,46 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 				    <ul class="nav nav-pills">
 				      <li class="active">
 				        <a href="#">
-				          <span class="badge pull-right"> X </span>
-				          W koszyku
+				          <span class="badge"> 5 </span>
+				          <small>filmow w koszyku</small>
 				        </a>
 				      </li>
 				      <li>
 				        <a href="#">
 				          <span class="badge pull-right">16$</span>
-				          Suma<br/>Zapłać</a>
+				          Zapłać</a>
 				      </li>
 				    </ul>
-					</div>
+				</div>
 			</ul>
 			<div class="page-header">
 				<h1>
 					Filmy
 				</h1>
+			<div class="col-md-12 column" style="top:-50px">
+				<ul class="pagination pull-right">
+				<li><a href="index.php?p=-1">Wstecz</a></li>
+				<?php for ($i=0; $i*10 < count($filmy); $i++) { 
+					echo '<li><a href="index.php?p='.$i.'">'.$i.'</a></li>';
+				} ?>
+				<li>
+					<a href="index.php?p=+1">Dalej</a>
+				</li>
+			</ul>
 			</div>
+			</div>
+
 		</div>
 	</div>
 
 	<div class="col-md-12 column" id="content" style="top:30px">
-		<?php
-		foreach ($filmy as $i=>$film) {
-			if ($i>=$pagination)
-				break;
+		<?php 
+		if ($_GET["page"] == "filmy" || !$_GET["page"])
+			include("src/pokaz-filmy.php"); 
+		elseif ($_GET["page"] == "zamoweina"){
+				# code...
+			}
 		?>
-		<div class="row clearfix">
-		<div class="col-md-1 column number">
-				<?=$i+1?>
-		</div>
-			<div class="col-md-1 column">
-				<img src="<?=$film->_img_url?>">
-			</div>
-			<div class="col-md-9 column" style="padding-left:40px">
-			<h3 style="margin-top:0px"><?=$film->_nazwa?></h3>
-				<blockquote contenteditable="true">
-				  <p class="opis"><?=$film->_opis?></p>
-			    </blockquote>
-			</div>
-			<div class="col-md-1 column">
-				<div class="btn-group-vertical" style="height:100%">
-					<button class="btn btn-primmary" type="button">
-					<span class="badge pull-right">Kupiono 323 razy</span> </button>
-					
-					 <button class="btn btn-success text-align" type="button">
-					 Do koszyka <i class="glyphicon glyphicon-plus-sign" style="right:-5px"></i></button> 
-
-					  
-
-		
-				</div>
-			</div>
-		</div>
-		<hr/>
-	<?php
-		}
-		?>
-	</div>
-	<div class="row clearfix">
-		<div class="col-md-12 column">
-			<ul class="pagination pull-right">
-				<li><a href="index.php?p=-1">Prev</a></li>
-				<?php for ($i=0; $i*10 < count($filmy); $i++) { 
-					echo '<li><a href="index.php?p='.$i.'">'.$i.'</a></li>';
-				} ?>
-				
-				
-				<li>
-					<a href="index.php?p=+1">Next</a>
-				</li>
-			</ul>
-		</div>
 	</div>
 </div>
 </body>
