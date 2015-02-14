@@ -136,6 +136,8 @@ if (!is_null($rid))
 			include("src/pokaz-filmy.php"); 
 		elseif ($_GET["page"] == "zamowienia"){
 			include("src/pokaz-zamowienia.php");
+			}	elseif ($_GET["page"] == "potwierdz-zamowienie"){
+			include("src/potwierdz-zamowienie.php");
 			}
 		?>
 	</div>

@@ -23,7 +23,7 @@ $summaryPrice = 0;
         </span>
     
       
-        <a href="#" class="btn btn-success">
+        <a href="index.php?page=potwierdz-zamowienie" class="btn btn-success">
         <i class="glyphicon glyphicon-shopping-cart pull-right"></i>
           <span class="badge pull-right">
           <?=$summaryPrice?>$ </span>
