@@ -78,7 +78,7 @@ class Zamowienie {
         // Dodaj obiekt film do zamówienia
         $film = new Film();
         $film->get($db, $row_data["film_id"]);
-        $this->filmy[] = $film;
+        $this->_filmy[] = $film;
       }
 
     }

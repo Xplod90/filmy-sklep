@@ -116,7 +116,7 @@ if (!is_null($rid))
 				<li class="active">
 					<a href="index.php">Filmy</a>
 				</li>
-				<li>
+				<li class="active">
 					<a href="index.php?page=zamowienia">Zamowienia</a>
 				</li>
 				
