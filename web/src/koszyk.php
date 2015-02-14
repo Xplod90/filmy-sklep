@@ -1,6 +1,7 @@
 <?php
 // Łączna cena wszystkich filmów w koszyku, ustawiamy zmienną na 0
 $summaryPrice = 0;
+//Ilość filmów w koszyku (rozmiar tablicy)
 $ilosc = count($_SESSION['filmy-koszyk']);
 ?>
 <div class="view pull-right">
@@ -12,7 +13,7 @@ $ilosc = count($_SESSION['filmy-koszyk']);
 
         	// Wyświetla wszystkie filmy jakie są w koszyku ich nazwę i cenę
         	// Na internetice znaleźliźmy funkcje serialize() i unserialize() ktore pozwalając przetrzymywać 
-        	// kalsy w danych sesji
+        	// klasy w danych sesji
         	$film = unserialize($film);
         	echo $film->_nazwa.' - '.$film->_cena.'$<br/>';
         	$summaryPrice += $film->_cena;
@@ -29,11 +30,14 @@ $ilosc = count($_SESSION['filmy-koszyk']);
           <span class="badge pull-right">
           <?=$summaryPrice?>$ </span>
           Zapłać </a>
-          <a href="index.php?rem=-1" class="btn btn-danger"><i class="glyphicon glyphicon-minus pull-right"></i>Usuń wszystko</a>
+          <!-- Przycisk do usuwania wszystkich filmów z koszyka -->
+          <a href="index.php?rem=-1" class="btn btn-danger">
+          <i class="glyphicon glyphicon-minus pull-right"></i></a>
       
    </div>
 </div>
 
 <script>
+// Inicjowanie tooltipów 
 $(function () { $("[data-toggle='tooltip']").tooltip(); });
 </script>

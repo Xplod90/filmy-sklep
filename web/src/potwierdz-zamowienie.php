@@ -1,3 +1,4 @@
+<!-- Tworzenie graficznej formy -->
 <h2 style="margin-top:0px;padding-bottom:19px"> <strong>Potwierdź zamówienie</strong></h2>
 <form class="form-horizontal col-md-8" role="form" method="post" action="index.php?page=potwierdz-zamowienie">
   <div class="form-group">
@@ -25,28 +26,29 @@
   </div>
 </form>
 <?php
-
+/*
+Pobieranie danych post
+Działa tylko jeśli do tej strony zostaną przesłane dane z formularza
+*/
 // jeśli która kolwiek ze zmiennych jest pusta przerwij
 if (empty($_POST['imie']) || empty($_POST['nazwisko']) || empty($_POST['adres']) || count($_SESSION['filmy-koszyk']) ==0)
   return;
-/*
-Pobieranie danych post
-*/
+
 $imie = $_POST['imie'];
 $nazwisko = $_POST['nazwisko'];
 $adres = $_POST['adres'];
 $zamowioneFilmy = array();
 // Pobieramy wszystkie filmy z sesji
-foreach ($_SESSION['filmy-koszyk'] as $film) {
-  $film = unserialize($film);
-  $zamowioneFilmy[] = $film;
-  # code...
-}
-// Tworzymy nowy obiekt zamówienie
+foreach ($_SESSION['filmy-koszyk'] as $film) 
+  $zamowioneFilmy[] = unserialize($film);
 
+
+
+// Tworzymy nowy obiekt zamówienie
 $zamowienie = new Zamowienie();
 //Ustawiwamy filmy jakie kupił użytkownik
 $zamowienie->_filmy = $zamowioneFilmy;
+//Ustawiamy dane dostawy
 $zamowienie->_dostawa->_imie = $imie;
 $zamowienie->_dostawa->_nazwisko = $nazwisko;
 $zamowienie->_dostawa->_adres = $adres;
@@ -54,8 +56,10 @@ $zamowienie->_dostawa->_adres = $adres;
 //zapisywanie zamówienia
 $zamowienie->save($db);
 
-//Kasujemy koszyk
-
+//Kasujemy stary koszyk
 $_SESSION['filmy-koszyk'] = array();
 ?>
-<script>document.location.href = "index.php?page=zamowieni";</script>
+<script>
+// Przekierowywujemy do strony z filmami
+document.location.href = "index.php?page=zamowieni";
+</script>
