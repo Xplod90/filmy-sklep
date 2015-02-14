@@ -21,6 +21,7 @@ Stworzenie odpowiednich tablic
 $filmy = array();
 $zamowienia = array();
 
+
 /*
 Pobieranie filmów i tworzenie ogolnej tablicy zawierającej wszystkie filmy
 */
@@ -40,6 +41,7 @@ foreach($db->query('SELECT `id` from `film`') as $row) {
 	{
 		// Dodaj do danych sesji bieżący film
 		$_SESSION['filmy-koszyk'][] = serialize($film);
+
 	}
 
 } 
@@ -72,11 +74,15 @@ $end = $pagination*10+10;
 /*
 Koszyk - usuwanie danych 
 */
-if ($rid= $_GET['rem'])
+$rid= $_GET['rem'];
+// jeśli nie jest pusta to usuń z tablicy\
+if (!is_null($rid))
 {
+
 	// jesli równe -1 to usuń caly koszyk
 	if ($rid == -1)
 		$_SESSION['filmy-koszyk'] = array();
+	
 	unset($_SESSION['filmy-koszyk'][$rid]);
 	//array_search(serialize($film), $_SESSION['filmy-koszyk']);
 }
@@ -108,10 +114,10 @@ if ($rid= $_GET['rem'])
 		<div class="col-md-12 column" style="top:30px">
 			<ul class="nav nav-tabs">
 				<li class="active">
-					<a href="#">Filmy</a>
+					<a href="index.php">Filmy</a>
 				</li>
 				<li>
-					<a href="#">Zamowienia</a>
+					<a href="index.php?page=zamowienia">Zamowienia</a>
 				</li>
 				
 				<?php include('src/koszyk.php')?>
@@ -128,7 +134,7 @@ if ($rid= $_GET['rem'])
 		<?php 
 		if ($_GET["page"] == "filmy" || !$_GET["page"])
 			include("src/pokaz-filmy.php"); 
-		elseif ($_GET["page"] == "zamoweina"){
+		elseif ($_GET["page"] == "zamowienia"){
 			include("src/pokaz-zamowienia.php");
 			}
 		?>

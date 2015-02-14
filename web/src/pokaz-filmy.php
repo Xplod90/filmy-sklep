@@ -22,8 +22,11 @@
 					<span class="badge pull-right">Kupiono 323 razy</span> </button>
 					<?php 
 					// jeśli film jest juz w koszyku to bez możliwości jego ponownego kupienia
-					if (!$id = array_search(serialize($film), $_SESSION['filmy-koszyk'])){
+	
+					$id = array_search(serialize($film), $_SESSION['filmy-koszyk']);
+					if (!$id and $id !== 0){
 						?>
+
 					 <a class="btn btn-success text-align" type="button" href="index.php?p=<?=$pagination?>&add=<?=$film->_id?>">
 					 Do koszyka <i class="glyphicon glyphicon-plus-sign" style="right:-5px"></i></a> 
 					 <?php } else {
