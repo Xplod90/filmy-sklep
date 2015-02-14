@@ -36,7 +36,7 @@ foreach($db->query('SELECT `id` from `film`') as $row) {
 	$filmy[] = $film;
 }
 
-
+$pagination = 10;
 /*
 Pobieranie wszystkich zamowien
 Analogicznie do tego jak pobierane są filmy, dlatego bez komentarzy
@@ -120,6 +120,8 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 	<div class="col-md-12 column" id="content" style="top:30px">
 		<?php
 		foreach ($filmy as $i=>$film) {
+			if ($i>=$pagination)
+				break;
 		?>
 		<div class="row clearfix">
 		<div class="col-md-1 column number">
@@ -128,14 +130,14 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 			<div class="col-md-1 column">
 				<img src="<?=$film->_img_url?>">
 			</div>
-			<div class="col-md-8 column" style="padding-left:40px">
-			<h3><?=$film->_nazwa?></h3>
+			<div class="col-md-9 column" style="padding-left:40px">
+			<h3 style="margin-top:0px"><?=$film->_nazwa?></h3>
 				<blockquote contenteditable="true">
 				  <p class="opis"><?=$film->_opis?></p>
 			    </blockquote>
 			</div>
-			<div class="col-md-2 column">
-				<div class="btn-group btn-group-vertical">
+			<div class="col-md-1 column">
+				<div class="btn-group btn-group-vertical pull-right">
 					 <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-left"></em> Left</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-center"></em> Center</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-right"></em> Right</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-justify"></em> Justify</button>
 				</div>
 			</div>
@@ -147,27 +149,15 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 	</div>
 	<div class="row clearfix">
 		<div class="col-md-12 column">
-			<ul class="pagination">
+			<ul class="pagination pull-right">
+				<li><a href="index.php?p=-1">Prev</a></li>
+				<?php for ($i=0; $i*10 < count($filmy); $i++) { 
+					echo '<li><a href="index.php?p='.$i.'">'.$i.'</a></li>';
+				} ?>
+				
+				
 				<li>
-					<a href="#">Prev</a>
-				</li>
-				<li>
-					<a href="#">1</a>
-				</li>
-				<li>
-					<a href="#">2</a>
-				</li>
-				<li>
-					<a href="#">3</a>
-				</li>
-				<li>
-					<a href="#">4</a>
-				</li>
-				<li>
-					<a href="#">5</a>
-				</li>
-				<li>
-					<a href="#">Next</a>
+					<a href="index.php?p=+1">Next</a>
 				</li>
 			</ul>
 		</div>
