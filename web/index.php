@@ -137,8 +137,16 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 			    </blockquote>
 			</div>
 			<div class="col-md-1 column">
-				<div class="btn-group btn-group-vertical pull-right">
-					 <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-left"></em> Left</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-center"></em> Center</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-right"></em> Right</button> <button class="btn btn-default" type="button"><em class="glyphicon glyphicon-align-justify"></em> Justify</button>
+				<div class="btn-group-vertical" style="height:100%">
+					<button class="btn btn-primmary" type="button">
+					<span class="badge pull-right">Kupiono 323 razy</span> </button>
+					
+					 <button class="btn btn-success text-align" type="button">
+					 Do koszyka <i class="glyphicon glyphicon-plus-sign" style="right:-5px"></i></button> 
+
+					  
+
+		
 				</div>
 			</div>
 		</div>
