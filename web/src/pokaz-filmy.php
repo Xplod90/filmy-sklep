@@ -1,7 +1,7 @@
 <?php
-		foreach ($filmy as $i=>$film) {
-			if ($i>=$pagination)
-				break;
+	foreach ($filmy as $i=>$film) {
+			if ($i>=$end || $i<$start)
+				continue;
 		?>
 		<div class="row clearfix">
 		<div class="col-md-1 column number">
@@ -12,7 +12,7 @@
 			</div>
 			<div class="col-md-9 column" style="padding-left:40px">
 			<h3 style="margin-top:0px"><?=$film->_nazwa?></h3>
-				<blockquote contenteditable="true">
+				<blockquote >
 				  <p class="opis"><?=$film->_opis?></p>
 			    </blockquote>
 			</div>

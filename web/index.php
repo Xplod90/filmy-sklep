@@ -34,7 +34,7 @@ foreach($db->query('SELECT `id` from `film`') as $row) {
 	$filmy[] = $film;
 }
 
-$pagination = 10;
+
 /*
 Pobieranie wszystkich zamowien
 Analogicznie do tego jak pobierane są filmy, dlatego bez komentarzy
@@ -45,6 +45,17 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 	$zamowienie->get($db, $row['id']);
 	$zamowienia[] = $zamowienie;
 }
+
+/*
+Numerowanie stron
+*/
+// jeśli zmienna $_GET jest pusta to domyślnie zacznij pokazywać pierwszą stronę
+if (empty($_GET['p']))
+	$pagination = 0; else
+	$pagination = $_GET['p'];
+
+$start = $pagination*10;
+$end = $pagination*10+10;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -92,38 +103,26 @@ foreach($db->query('SELECT `id` from `zamowienie`') as $row) {
 					<a href="#">Zamowienia</a>
 				</li>
 				<div class="view pull-right">
-				    <ul class="nav nav-pills">
-				      <li class="active">
-				        <a href="#">
+				   <div class="btn-group">
+				        <span class="btn btn-info">
 				          <span class="badge"> 5 </span>
 				          <small>filmow w koszyku</small>
-				        </a>
-				      </li>
-				      <li>
-				        <a href="#">
-				          <span class="badge pull-right">16$</span>
-				          Zapłać</a>
-				      </li>
-				    </ul>
+				        </span>
+				    
+				      
+				        <a href="#" class="btn btn-success">
+				        <i class="glyphicon glyphicon-shopping-cart pull-right"></i>
+				          <span class="badge pull-right">16$ </span>
+				          Zapłać </a>
+				      
+				   </div>
 				</div>
 			</ul>
-			<div class="page-header">
-				<h1>
-					Filmy
-				</h1>
-			<div class="col-md-12 column" style="top:-50px">
-				<ul class="pagination pull-right">
-				<li><a href="index.php?p=-1">Wstecz</a></li>
-				<?php for ($i=0; $i*10 < count($filmy); $i++) { 
-					echo '<li><a href="index.php?p='.$i.'">'.$i.'</a></li>';
-				} ?>
-				<li>
-					<a href="index.php?p=+1">Dalej</a>
-				</li>
-			</ul>
-			</div>
-			</div>
-
+			
+			<?php
+			// Załączamy strone z tytułem i listowaniem 
+			include('src/header.php');
+			?>
 		</div>
 	</div>
 
