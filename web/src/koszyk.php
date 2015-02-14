@@ -1,6 +1,7 @@
 <?php
 // Łączna cena wszystkich filmów w koszyku, ustawiamy zmienną na 0
 $summaryPrice = 0;
+$ilosc = count($_SESSION['filmy-koszyk']);
 ?>
 <div class="view pull-right">
    <div class="btn-group">
@@ -18,12 +19,12 @@ $summaryPrice = 0;
         }
         ?>">
           <!-- Wyświetlenie ilość filmów w koszyku -->
-          <span class="badge"> <?=count($_SESSION['filmy-koszyk'])?> </span>
+          <span class="badge"> <?=$ilosc?> </span>
           <small>filmow w koszyku</small>
         </span>
     
       
-        <a href="index.php?page=potwierdz-zamowienie" class="btn btn-success">
+        <a  href="index.php?page=potwierdz-zamowienie" class="btn btn-success <?=($ilosc>0)?'':' disabled"'?>">
         <i class="glyphicon glyphicon-shopping-cart pull-right"></i>
           <span class="badge pull-right">
           <?=$summaryPrice?>$ </span>
