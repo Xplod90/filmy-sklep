@@ -1,5 +1,6 @@
 <?php
-
+// start sesji - potrzebny do koszyka
+session_start();
 /*
 Łaczenie z bazą danych 
 */
@@ -32,9 +33,18 @@ foreach($db->query('SELECT `id` from `film`') as $row) {
 	$film->get($db, $row['id']);
 	//Dodawanie nowego filmu do tablicy
 	$filmy[] = $film;
-}
 
 
+	//jeżeli film został dodany do koszyka 
+	if ($_GET['add'] == $row['id'])
+	{
+		// Dodaj do danych sesji bieżący film
+		$_SESSION['filmy-koszyk'][] = serialize($film);
+	}
+
+} 
+
+//$_SESSION['filmy-koszyk'][] = serialize($filmy[2]);
 /*
 Pobieranie wszystkich zamowien
 Analogicznie do tego jak pobierane są filmy, dlatego bez komentarzy
@@ -54,8 +64,24 @@ if (empty($_GET['p']))
 	$pagination = 0; else
 	$pagination = $_GET['p'];
 
+//Pokazuj rekordy od
 $start = $pagination*10;
+//Pokazuj rekordy do
 $end = $pagination*10+10;
+
+/*
+Koszyk - usuwanie danych 
+*/
+if ($rid= $_GET['rem'])
+{
+	// jesli równe -1 to usuń caly koszyk
+	if ($rid == -1)
+		$_SESSION['filmy-koszyk'] = array();
+	unset($_SESSION['filmy-koszyk'][$rid]);
+	//array_search(serialize($film), $_SESSION['filmy-koszyk']);
+}
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -65,25 +91,10 @@ $end = $pagination*10+10;
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="">
   <meta name="author" content="">
-
-	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
-	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
-	<!--script src="js/less-1.3.3.min.js"></script-->
-	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-  <![endif]-->
-
-  <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="img/favicon.png">
   
 	<script type="text/javascript" src="js/jquery.min.js"></script>
@@ -102,21 +113,8 @@ $end = $pagination*10+10;
 				<li>
 					<a href="#">Zamowienia</a>
 				</li>
-				<div class="view pull-right">
-				   <div class="btn-group">
-				        <span class="btn btn-info">
-				          <span class="badge"> 5 </span>
-				          <small>filmow w koszyku</small>
-				        </span>
-				    
-				      
-				        <a href="#" class="btn btn-success">
-				        <i class="glyphicon glyphicon-shopping-cart pull-right"></i>
-				          <span class="badge pull-right">16$ </span>
-				          Zapłać </a>
-				      
-				   </div>
-				</div>
+				
+				<?php include('src/koszyk.php')?>
 			</ul>
 			
 			<?php
@@ -131,10 +129,11 @@ $end = $pagination*10+10;
 		if ($_GET["page"] == "filmy" || !$_GET["page"])
 			include("src/pokaz-filmy.php"); 
 		elseif ($_GET["page"] == "zamoweina"){
-				# code...
+			include("src/pokaz-zamowienia.php");
 			}
 		?>
 	</div>
 </div>
+
 </body>
 </html>

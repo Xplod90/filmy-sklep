@@ -20,11 +20,22 @@
 				<div class="btn-group-vertical" style="height:100%">
 					<button class="btn btn-primary" type="button">
 					<span class="badge pull-right">Kupiono 323 razy</span> </button>
-					
-					 <button class="btn btn-success text-align" type="button">
-					 Do koszyka <i class="glyphicon glyphicon-plus-sign" style="right:-5px"></i></button> 
+					<?php 
+					// jeśli film jest juz w koszyku to bez możliwości jego ponownego kupienia
+					if (!$id = array_search(serialize($film), $_SESSION['filmy-koszyk'])){
+						?>
+					 <a class="btn btn-success text-align" type="button" href="index.php?p=<?=$pagination?>&add=<?=$film->_id?>">
+					 Do koszyka <i class="glyphicon glyphicon-plus-sign" style="right:-5px"></i></a> 
+					 <?php } else {
+					 	// Wyświetl przycisk do usuwania z koszyka
+					 	?>
+					 	<a class="btn btn-danger text-align" type="button" href="index.php?p=<?=$pagination?>&rem=<?=$id?>">
+					 Usuń z koszyka <i class="glyphicon glyphicon-minus-sign" style="right:-5px"></i></a> 
 
-					  
+					 	<?php
+					 }
+
+					  ?>
 
 		
 				</div>
