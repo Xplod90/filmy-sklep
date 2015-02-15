@@ -18,3 +18,91 @@ line-height: 1em;
 
 text-align: justify;
 }
+.cena {
+    position: absolute;
+    left: 0;
+    top: -23px;
+    width: 100%;
+    text-align: center;
+    cursor: default;
+}
+@charset "utf-8";
+	
+	* {
+	padding:0; 
+	margin:0; 
+	border:0;
+}
+
+.circle{
+  background: rgb(238, 215, 215);
+  padding: 2px;
+  text-align: center;
+  height: 42px;
+  width: 49px;
+  border: 3px solid #F2F2F2;
+    
+    transition: all 0.5s;
+  -moz-transition: all 0.5s; /* Firefox 4 */
+  -webkit-transition: all 0.5s; /* Safari and Chrome */
+  -o-transition: all 0.5s; /* Opera */
+ 
+}
+.circle h4{
+  margin: 0;
+  padding: 0;
+}
+.circle p{}
+.circle span{}
+.circle span.icon{
+}
+.circle span.icon i{
+  font-size: 18px;
+}
+.circle span.price-large{
+  font-size: 12px
+}
+
+.c1:hover{
+  background: #39b3d7;
+  color: #ffffff;
+}
+.c1 .blue{
+  color: #39b3d7;
+}
+.c1:hover .blue{
+  color: #ffffff;
+}
+
+.c2:hover{
+  background: #ed9c28;
+  color: #ffffff;
+}
+.c2 .yellow{
+  color: black;
+}
+.c2:hover .yellow{
+  color: #ffffff;
+}
+
+.c3:hover{
+  background: #47a447;
+  color: #ffffff;
+}
+.c3 .green{
+  color: #47a447;
+}
+.c3:hover .green{
+  color: #ffffff;
+}
+
+.c4:hover{
+  background: #d2322d;
+  color: #ffffff;
+}
+.c4 .red{
+  color: #d2322d;
+}
+.c4:hover .red{
+  color: #ffffff;
+}

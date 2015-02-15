@@ -24,7 +24,7 @@ $ilosc = count($_SESSION['filmy-koszyk']);
           <small>filmow w koszyku</small>
         </span>
     
-      
+        <!-- Link do potwierdzania płatności, aktywyny tylko gdy ilość w koszyku jest większa niż 0 -->
         <a  href="index.php?page=potwierdz-zamowienie" class="btn btn-success <?=($ilosc>0)?'':' disabled"'?>">
         <i class="glyphicon glyphicon-shopping-cart pull-right"></i>
           <span class="badge pull-right">
@@ -32,7 +32,8 @@ $ilosc = count($_SESSION['filmy-koszyk']);
           Zapłać </a>
           <!-- Przycisk do usuwania wszystkich filmów z koszyka -->
           <a href="index.php?rem=-1" class="btn btn-danger">
-          <i class="glyphicon glyphicon-minus pull-right"></i></a>
+          <i class="glyphicon glyphicon-minus pull-right" style="right:-7px"></i>
+          Kasuj koszyk</a>
       
    </div>
 </div>

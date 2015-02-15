@@ -61,5 +61,5 @@ $_SESSION['filmy-koszyk'] = array();
 ?>
 <script>
 // Przekierowywujemy do strony z filmami
-document.location.href = "index.php?page=zamowieni";
+document.location.href = "index.php?page=zamowienia";
 </script>

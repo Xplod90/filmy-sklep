@@ -15,7 +15,11 @@
 		</div>
 			<div class="col-md-1 column">
 				<!-- Adres do obrazka -->
-				<img src="<?=$film->_img_url?>">
+				<img style="max-width:150px" src="<?=$film->_img_url?>">
+				<div class="circle c2 img-circle cena">
+                      <span class="icon yellow"><i class="fa fa-eur"></i></span>
+                      <span class="price-large yellow"><strong><?=$film->_cena?>$</strong></span>
+                  </div>
 			</div>
 			<div class="col-md-9 column" style="padding-left:40px">
 			<h3 style="margin-top:0px"><?=$film->_nazwa?></h3>
@@ -28,9 +32,10 @@
 					<!---<button class="btn btn-primary" type="button">
 					<span class="badge pull-right">Kupiono 323 razy</span> </button>-->
 					<?php 
-					// jeśli film jest juz w koszyku to bez możliwości jego ponownego kupienia
-	
+					// jeśli film jest juz w koszyku to nie ma możliwości jego ponownego kupienia
+					// Sprawdzanie czy znaleziono film w koszyku
 					$id = array_search(serialize($film), $_SESSION['filmy-koszyk']);
+					// w przypadku $i = array_serach trzeba też sprawdzić typ zmiennej (!==)
 					if (!$id and $id !== 0){
 						?>
 

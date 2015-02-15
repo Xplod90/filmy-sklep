@@ -1,4 +1,5 @@
 <?php
+
 // start sesji - potrzebny do koszyka
 session_start();
 /*
@@ -119,6 +120,9 @@ if (!is_null($rid))
 				<li class="active">
 					<a href="index.php?page=zamowienia">Zamowienia</a>
 				</li>
+				<li class="active">
+					<a href="index.php?page=dodaj">Dodaj nowy film</a>
+				</li>
 				
 				<?php include('src/koszyk.php')?>
 			</ul>
@@ -134,11 +138,12 @@ if (!is_null($rid))
 		<?php 
 		if ($_GET["page"] == "filmy" || !$_GET["page"])
 			include("src/pokaz-filmy.php"); 
-		elseif ($_GET["page"] == "zamowienia"){
+		elseif ($_GET["page"] == "zamowienia")
 			include("src/pokaz-zamowienia.php");
-			}	elseif ($_GET["page"] == "potwierdz-zamowienie"){
+		elseif ($_GET["page"] == "potwierdz-zamowienie")
 			include("src/potwierdz-zamowienie.php");
-			}
+		elseif($_GET["page"] == "dodaj")
+			include("src/dodaj-film.php");
 		?>
 	</div>
 </div>
