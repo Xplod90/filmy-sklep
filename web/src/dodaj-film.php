@@ -25,7 +25,7 @@
     </div>
   </div>
   <div class="form-group">
-    <label class="col-sm-2 control-label">Cena/label>
+    <label class="col-sm-2 control-label">Cena</label>
     <div class="col-sm-7">
       <input name="cena" type="number" stepby="0.01" class="form-control" >
     </div>

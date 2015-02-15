@@ -26,14 +26,6 @@ text-align: justify;
     text-align: center;
     cursor: default;
 }
-@charset "utf-8";
-	
-	* {
-	padding:0; 
-	margin:0; 
-	border:0;
-}
-
 .circle{
   background: rgb(238, 215, 215);
   padding: 2px;
